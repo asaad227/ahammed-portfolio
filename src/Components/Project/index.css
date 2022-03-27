@@ -1,0 +1,73 @@
+.project-nav{
+    padding-bottom: 20px;
+}
+
+.pegion-blogs{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pegion-box{
+  display: flex;
+  width: 400px;
+  height: auto;
+  margin: 10px;
+  flex-direction: column;
+  border: 2px solid gold;
+  border-radius: 5px;
+}
+.container{
+    display: flex;
+    width: 200px;
+  }
+  
+  .flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    color: #f1f1f1;
+    padding:25px;
+  }
+  
+  .flex-box{
+  display: flex;
+  height: 400px;
+  border: 2px solid gold;
+  border-radius: 15px;
+  }
+
+  .gif-final-project{
+      border-radius: 15px;
+  }
+  .links{
+    display: flex;
+    flex-direction: column;
+    }
+
+    a {
+        /* color: #fff; */
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 0.15em;
+        display: inline-block;
+        position: relative;
+      }
+
+   a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: gold;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  

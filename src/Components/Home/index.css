@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Metal+Mania&family=Roboto:wght@300&display=swap');
+
+
+.home{
+  display: flex;
+  position: fixed;
+  flex-wrap: wrap;
+  padding: 50px;
+  color: bisque;
+}
+
+.nav-bar{
+  display: flex;
+  float: right;
+}
+
+.tech-steak{
+  padding-right: 10px;
+}
+
+
+.profile-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 25px;
+  justify-content: space-between;
+  text-align: justify;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.nav-home{
+  display: flex;
+}
+.social-links{
+display: flex;
+padding-top: 15px;
+padding-left: 10px;
+ gap:20px;
+}
+
+.main-name:hover{
+  color: gold;
+  transition: 1s ease-out;
+}
+
+
+
+.card {
+
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 100px;
+}
+
+.card:hover{
+  border: 1px solid goldenrod;
+}
+
+
+.fa{
+  font-size: large;
+  color: #eaeaea;
+}
+
+.fa:hover{
+  color: gold;
+  transition: 1s ease-out;
+}
+
+.type{
+  display: flex;
+  margin-left: 25%;
+  margin-right: 25%;
+  color: gold;
+  transition: 1s ease-out;
+}
+
+.type:hover{
+  color: white;
+  transition: 1s ease-out;
+}
+
+.image-icons{
+  width: 26px;
+  padding-right: 10px;
+}
+/* Switch {
+  height: 3em;
+  width: 7em;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  background-color: white;
+  border-radius: 1.5em;
+  box-shadow: inset 1px 1px 8px 1px rgba(0, 0, 0, 0.3);
+  justify-self: flex-end;
+  align-self: center;
+  margin-right: 10px;
+}
+.Buttonswitch {
+  border-radius: 50%;
+  width: 3em;
+  height: 3em;
+  border: none;
+  align-self: center;
+  justify-self: center;
+  background-color: red;
+  box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.3);
+  justify-self: flex-start;
+  transition: all 1s ease-in;
+} */
+
+
+
+
+
+
+
+
+
