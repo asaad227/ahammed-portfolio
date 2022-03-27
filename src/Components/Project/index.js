@@ -1,8 +1,8 @@
 import React from 'react'
 import "./index.css"
 import Nav from '../Nav'
-import simple1 from "./Gif/Final-project/firstpart.gif";
-import simple2 from "./Gif/Final-project/secondpart.gif"
+import simple1 from "./Gif/Final-project/simple1.gif";
+import simple2 from "./Gif/Final-project/simple3.gif"
 import pegion1 from "./Gif/Pegion-blogs/pegion-blog-p1.gif"
 import pegion2 from "./Gif/Pegion-blogs/pegion-blog-p2.gif"
 
@@ -39,8 +39,10 @@ export default function Project() {
    
       </div>
       <div className='flex-box'>
-        <img className='gif-final-project' src={simple2} alt="simple app"/>
+      <img className='gif-final-project' src={simple2} alt="simple App"/>
+   
       </div>
+    
       <div className='pegion-blogs'>
       <div className='links'>
       <a href='https://my-pegion-blogs.netlify.app/'>

@@ -7,5 +7,8 @@
 
 .type-profile{
 color: gold;
+}
+.type-profile:hover{
+  color: white;
   transition: 1s ease-out;
 }
