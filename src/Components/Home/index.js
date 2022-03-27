@@ -1,7 +1,6 @@
 import React from 'react';
 import '../../index.css';
 import './index.css';
-import Nav from '../Nav';
 import pic from "./ahammedSaad (3).png"
 import TypeAnimation from 'react-type-animation';
 import '../Nav/index.css';
