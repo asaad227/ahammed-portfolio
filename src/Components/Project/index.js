@@ -4,11 +4,12 @@ import Nav from '../Nav'
 import simple1 from "./Gif/Final-project/simple1.gif";
 import simple2 from "./Gif/Final-project/simple3.gif"
 import pegion1 from "./Gif/Pegion-blogs/pegion-blog-p1.gif"
-import pegion2 from "./Gif/Pegion-blogs/pegion-blog-p2.gif"
+import pegion2 from "./Gif/Pegion-blogs/pegion-blog-p2.gif";
+import poetry from "./Gif/poetry_finder.gif";
 
 export default function Project() {
   return (
-    <div>
+    <div className='project'>
     <header className='project-nav'>
     <Nav/>
     <div className='social-links'>
@@ -64,6 +65,30 @@ export default function Project() {
       <div className='pegion-box'>
         <img src={pegion2} alt="Pegion Blogs app"/>
       </div>
+
+
+      </div>
+      <div className='pegion-blogs'>
+      <div className='links'>
+      <a href='https://poetry-finder.netlify.app/'>
+      <i className="fa">Poetry Finder APP</i>
+   
+      </a>
+      <br/>
+      <a href='https://github.com/SchoolOfCode/hackathon-next-gatsby-ahammed-marian-jenny'>
+      <i className="fa"> My Poetry Finder Repo Github</i>
+      </a>
+      <br/>
+     
+      </div>
+      <div className='poetry-box'>
+      <img  src={poetry} alt="Poetry Finder"/>
+   
+      </div>
+     
+     
+
+      
       </div>
     
       </div>

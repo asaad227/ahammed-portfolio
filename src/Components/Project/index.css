@@ -1,5 +1,10 @@
+.project{
+  flex-wrap: wrap;
+}
+
 .project-nav{
-    padding-bottom: 20px;
+  padding: 0 20px 0 20px;
+
 }
 
 .pegion-blogs{
@@ -9,7 +14,17 @@
 
 .pegion-box{
   display: flex;
-  width: 400px;
+ margin: 20px;
+  width: 300px;
+  height: auto;
+  margin: 10px;
+  flex-direction: column;
+  border: 2px solid gold;
+  border-radius: 5px;
+}
+.poetry-box{
+  display: flex;
+  width: 300px;
   height: auto;
   margin: 10px;
   flex-direction: column;

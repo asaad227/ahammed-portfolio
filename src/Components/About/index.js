@@ -81,18 +81,28 @@ export default function About() {
               <TypeAnimation
                 className="type-profile"
                 sequence={[
-                  "Software Engineer",
+                  "Frontend Development",
                   2000,
                   "",
-                  "Full Stack",
+                  "Database",
                   2000,
                   "",
-                  "FrontEnd",
+                  "Programming",
                   2000,
                   "",
-                  "BackEnd",
+                  "UI/UX Design",
                   2000,
                   "",
+                  "Agile Methodology",
+                  2000,
+                  "",
+                  "Adaptability",
+                  2000,
+                  "",
+            
+                  "Dedicated Team Player",
+                  2000,
+                  ""
                 ]}
                 repeat={Infinity}
                 wrapper="p"
