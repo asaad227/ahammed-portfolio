@@ -34,6 +34,7 @@
 
 .nav-home{
   display: flex;
+  font-size: 18px;
 }
 .social-links{
 display: flex;

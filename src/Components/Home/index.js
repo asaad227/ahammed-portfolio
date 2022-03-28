@@ -32,10 +32,10 @@ function Home() {
     
     <div className='nav-home'>
     <Link to="/project">
-            <li><i className="fa">Project</i></li>
+            <li><i className="fa"></i>Project</li>
             </Link>
             <Link to="/about">
-            <li><i className="fa">About Me</i></li>
+            <li><i className="fa"></i>About Me</li>
             </Link>
             </div>
     <div className='social-links'>

@@ -63,6 +63,7 @@
     a {
         /* color: #fff; */
         text-transform: uppercase;
+        color: #f1f1f1;
         text-decoration: none;
         letter-spacing: 0.15em;
         display: inline-block;
@@ -84,8 +85,13 @@
   a:hover:after { 
     width: 100%; 
     left: 0; 
+    
+    
+  }
+  a:hover{
+    color:gold;
   }
   
-  .fa{
+  /* .fa{
     font-size: small;
-  }
+  } */

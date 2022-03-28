@@ -22,16 +22,16 @@ export default function Project() {
     <div className='flex-container'>
     <div className='links'>
       <a href='https://simple-app2.netlify.app/'>
-      <i className="fa">Simple App</i>
+      <i className="fa"></i>Simple App
    
       </a>
       <br/>
       <a href='https://github.com/SchoolOfCode/final-project-front-end-team-26-bit-by-bit'>
-      <i className="fa"> Simple Fontend Repo Github</i>
+      <i className="fa"> </i>Simple Fontend Github Repo
       </a>
       <br/>
       <a href='https://github.com/SchoolOfCode/final-project-repo-team-26-bit-by-bit'>
-      <i className="fa">Simple Backend Repo Github</i>
+      <i className="fa"></i>Simple Backend Github Repo
       </a>
       <br/>
       </div>
@@ -47,12 +47,12 @@ export default function Project() {
       <div className='pegion-blogs'>
       <div className='links'>
       <a href='https://my-pegion-blogs.netlify.app/'>
-      <i className="fa">My pegion blog APP</i>
+      <i className="fa"></i>My pegion blog APP
    
       </a>
       <br/>
       <a href='https://github.com/asaad227/My-Pegion-blogs'>
-      <i className="fa"> My-Pegion Repo Github</i>
+      <i className="fa"> </i>My-Pegion Github Repo
       </a>
       <br/>
      
@@ -71,12 +71,12 @@ export default function Project() {
       <div className='pegion-blogs'>
       <div className='links'>
       <a href='https://poetry-finder.netlify.app/'>
-      <i className="fa">Poetry Finder APP</i>
+      <i className="fa"></i>Poetry Finder APP
    
       </a>
       <br/>
       <a href='https://github.com/SchoolOfCode/hackathon-next-gatsby-ahammed-marian-jenny'>
-      <i className="fa"> My Poetry Finder Repo Github</i>
+      <i className="fa"></i> My Poetry Finder Github Repo
       </a>
       <br/>
      
