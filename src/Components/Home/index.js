@@ -23,7 +23,7 @@ function Home() {
     
       <img className='card' src={pic} alt="Ahammed Saad"/>
       <TypeAnimation className='type' cursor={false} sequence={['Ahammed SAAD', 3000]}/>
-      <TypeAnimation className='type' cursor={false} sequence={['Well Come To My Portfolio', 2000]}/>
+      <TypeAnimation  cursor={false} sequence={['Well Come To My Portfolio', 2000]}/>
       <TypeAnimation className="type"
         sequence={['Software Engineer', 2000,'', 'Full Stack', 2000,'', 'FrontEnd', 2000, '', 'BackEnd', 2000, '']}
         repeat = {Infinity}

@@ -24,6 +24,7 @@ import css3Original from "./Icons/css3-original.svg";
 import jestPlain from "./Icons/jest-plain.svg";
 import Enzyme from './Icons/enzyme.png'
 import Chart from "./Icons/Chartjs.png"
+import Heroku from "./Icons/heroku-original-wordmark.svg";
 import TypeAnimation from "react-type-animation";
 
 export default function About() {
@@ -51,7 +52,7 @@ export default function About() {
         <div className="profile-flex">
           <h2 className="profile-para">
             <TypeAnimation
-              className="type-profile"
+              
               cursor={false}
               sequence={["Ahammed Saad", 2000]}
             />
@@ -118,6 +119,7 @@ export default function About() {
           <img className="image-icons" src={css3Original} alt="css3" />
           <img className="image-icons" src={figma} alt="Figma" />
           <img className="image-icons" src={Chart} alt="Chart.js" />
+          <img className="image-icons" src={Heroku} alt="Heroku" />
           <img className="image-icons" src={postGreSql} alt="postgresSql" />
           <img className="image-icons" src={Postman} alt="Postman" />
           <img className="image-icons" src={Auth0} alt="Auth0" />
