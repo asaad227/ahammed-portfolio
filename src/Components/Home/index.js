@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../index.css';
 import './index.css';
-import pic from "./ahammedSaad (3).png"
+import pic from "../../assets/Images/ahammedSaad.png"
 import TypeAnimation from 'react-type-animation';
 import '../Nav/index.css';
 import { Link } from 'react-router-dom';
@@ -36,6 +36,9 @@ function Home() {
             </Link>
             <Link to="/about">
             <li><i className="fa"></i>About Me</li>
+            </Link>
+            <Link to="/resume">
+            <li><i className="fa"></i>Resume</li>
             </Link>
             </div>
     <div className='social-links'>

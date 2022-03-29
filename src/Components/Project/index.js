@@ -1,11 +1,11 @@
 import React from 'react'
 import "./index.css"
 import Nav from '../Nav'
-import simple1 from "./Gif/Final-project/simple1.gif";
-import simple2 from "./Gif/Final-project/simple3.gif"
-import pegion1 from "./Gif/Pegion-blogs/pegion-blog-p1.gif"
-import pegion2 from "./Gif/Pegion-blogs/pegion-blog-p2.gif";
-import poetry from "./Gif/poetry_finder.gif";
+import simple1 from "../../assets/Gif/Final-project/simple1.gif";
+import simple2 from "../../assets/Gif/Final-project/simple3.gif"
+import pegion1 from "../../assets/Gif/Pegion-blogs/pegion-blog-p1.gif"
+import pegion2 from "../../assets/Gif/Pegion-blogs/pegion-blog-p2.gif";
+import poetry from "../../assets/Gif/poetry_finder.gif";
 
 export default function Project() {
   return (

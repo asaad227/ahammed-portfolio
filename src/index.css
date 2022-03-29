@@ -1,8 +1,8 @@
 
 
 :root{
- --bg-image: url("./tech-back.jpg");
- --bg-white: url("./white-bg.jpg");
+ --bg-image: url("../src/assets/Images/tech-back.jpg");
+ --bg-white: url("../src/assets/Images/white-bg.jpg");
   --text-color : azure;
   --bg-color: #111; 
   
