@@ -73,7 +73,7 @@ export default function Project() {
             <br />
 
             <a href="https://github.com/SchoolOfCode/national-project-week-repo-2-room-17-leanne-karen-reece-ahammed">
-              <i className="fa"></i> Github bBckend repo
+              <i className="fa"></i> Github Backend repo
             </a>
           </div>
 

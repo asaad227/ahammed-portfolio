@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from "../Nav";
+import pic from "../../assets/Images/ahammedSaad.png"
 import "./index.css";
 import Auth0 from "../../assets/Icons/auth0.png";
 import Typescript from "../../assets/Icons/Typescript_logo_2020.svg.png";
@@ -50,6 +51,7 @@ export default function About() {
       </header>
 
       <div className="profile-about">
+       <img className='card' src={pic} alt="Ahammed Saad"/>
         <div className="profile-flex">
           <h2 className="profile-para">
             <TypeAnimation cursor={false} sequence={["Ahammed Saad", 2000]} />
@@ -69,7 +71,7 @@ export default function About() {
         <div className="profile-flex">
           <h4>Hobbies ____________________</h4>
           <p className="type-profile">
-            Travelling and exploring different cuisine.
+            Travelling, exploring different cuisine and also like football and cricket.
           </p>
         </div>
         <div className="profile-flex">

@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../index.css';
 import './index.css';
-import pic from "../../assets/Images/ahammedSaad.png"
+import logo from "../../assets/Gif/logo.gif"
 import TypeAnimation from 'react-type-animation';
 import '../Nav/index.css';
 import { Link } from 'react-router-dom';
@@ -20,9 +20,9 @@ function Home() {
     </header>
    
     <div className='profile-container'>
-    
-      <img className='card' src={pic} alt="Ahammed Saad"/>
-      <TypeAnimation className='type' cursor={false} sequence={['Ahammed SAAD', 3000]}/>
+    <img className='card'  src={logo} alt="Ring"/>
+      {/* <img className='card' src={pic} alt="Ahammed Saad"/> */}
+      <TypeAnimation className='type' cursor={false} sequence={["Hi! I'm Ahammed Saad. ", 3000]}/>
       <TypeAnimation  cursor={false} sequence={['Well Come To My Portfolio', 2000]}/>
       <TypeAnimation className="type"
         sequence={['Software Engineer', 2000,'', 'Full Stack', 2000,'', 'FrontEnd', 2000, '', 'BackEnd', 2000, '']}
