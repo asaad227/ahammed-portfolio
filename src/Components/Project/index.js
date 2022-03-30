@@ -6,7 +6,8 @@ import simple2 from "../../assets/Gif/Final-project/simple3.gif"
 import pegion1 from "../../assets/Gif/Pegion-blogs/pegion-blog-p1.gif"
 import pegion2 from "../../assets/Gif/Pegion-blogs/pegion-blog-p2.gif";
 import poetry from "../../assets/Gif/poetry_finder.gif";
-
+import Bootcampers1 from "../../assets/Gif/BootcampersSocial/bootcampersSocial-1.gif";
+import Bootcampers2 from "../../assets/Gif/BootcampersSocial/bootcampersSocial-2.gif";
 export default function Project() {
   return (
     <div className='project'>
@@ -16,6 +17,7 @@ export default function Project() {
     <a href="https://www.linkedin.com/in/ahammed-saad-5341b3231/"> <i className='fa fa-linkedin'></i></a>
       <a href="https://github.com/asaad227"> <i className='fa fa-github'></i></a>
       <a href="https://twitter.com/a_saad227"> <i className='fa fa-twitter'></i></a>
+      <a href="mailto:a.saad227@gmail.com? subject=subject text"> <i className='fa fa-google'></i></a>
       </div>
     </header>
   
@@ -42,6 +44,31 @@ export default function Project() {
       <div className='flex-box'>
       <img className='gif-final-project' src={simple2} alt="simple App"/>
    
+      </div>
+      <div className='pegion-blogs'>
+      <div className='links'>
+      <a href='https://bootcampers-social.netlify.app/'>
+      <i className="fa"></i> Bootcampers Social App
+      </a>
+      <br/>
+      <a href='https://github.com/SchoolOfCode/national-project-week-room-17-leanne-karen-reece-ahammed'>
+      <i className="fa"></i> Github Forntend repo
+      </a>
+      <br/>
+
+      <a href='https://github.com/SchoolOfCode/national-project-week-repo-2-room-17-leanne-karen-reece-ahammed'>
+      <i className="fa"></i> Github bBckend repo
+      </a>
+      </div>
+      
+     
+      <div className='pegion-box'>
+      <img  src={Bootcampers1} alt="Bootcampers Social App"/>
+   
+      </div>
+      <div className='pegion-box'>
+      <img  src={Bootcampers2} alt="Bootcampers Social App"/>
+      </div>
       </div>
     
       <div className='pegion-blogs'>
@@ -85,6 +112,8 @@ export default function Project() {
       <img  src={poetry} alt="Poetry Finder"/>
    
       </div>
+
+
      
      
 
@@ -93,6 +122,7 @@ export default function Project() {
     
       </div>
       </div>
+  
     
   )
 }

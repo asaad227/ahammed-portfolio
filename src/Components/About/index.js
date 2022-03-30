@@ -44,6 +44,7 @@ export default function About() {
             {" "}
             <i className="fa fa-twitter"></i>
           </a>
+          <a href="mailto:a.saad227@gmail.com? subject=subject text"> <i className='fa fa-google'></i></a>
         </div>
       </header>
 
