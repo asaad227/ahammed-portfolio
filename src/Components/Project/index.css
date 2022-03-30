@@ -7,6 +7,10 @@
 
 }
 
+h2:hover{
+  color:gold;
+
+}
 .pegion-blogs{
   display: flex;
   flex-wrap: wrap;

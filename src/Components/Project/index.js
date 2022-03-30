@@ -22,6 +22,7 @@ export default function Project() {
     </header>
   
     <div className='flex-container'>
+    <h2> Please find few of my personal and group project GIFs version below and if you would like to see all my project please visit my <br/><a href="https://github.com/asaad227"> <i className='fa fa-github'></i>page</a></h2>
     <div className='links'>
       <a href='https://simple-app2.netlify.app/'>
       <i className="fa"></i>Simple App
