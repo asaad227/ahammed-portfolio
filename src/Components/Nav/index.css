@@ -1,64 +1,62 @@
-
-li{
-    list-style: none;
-    margin: 10px;
+li {
+  list-style: none;
+  margin: 10px;
 }
 
-.sidepanel  {
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    height: auto;
-    top: 0;
-    right: 0;
+.sidepanel {
+  width: 0;
+  position: absolute;
+  z-index: 1;
+  height: auto;
+  top: 0;
+  right: 0;
   background-image: url("../../assets/Images/tech-back.jpg");
-background-attachment: fixed;
-background-repeat: no-repeat;
-background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-    overflow-x: hidden;
-    transition: 0.7s;
-    padding-top: 50px;
-  }
-  
-  .sidepanel a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 16px;
-    color: white;
-    display: flex;
-    transition: width 0.5s;
-  }
- 
-  .sidepanel a:hover {
-    color: gold;
-    transition: 1s ease-out;
-  }
-  
-  .sidepanel .closebtn {
-    position: absolute;
-    top: 10px;
-    right: 25px;
-    font-size: 16px;
-    padding-bottom: 5px;
-  }
-  
-  .openbtn {
-    display: flex;
-    float: right;
-    font-size: 16px;
-    cursor: pointer;
-    background-image: url("../../assets/Images/tech-back.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: none;
-    padding-top: 20px;
-    color: white;
-  }
-  
-  .openbtn:hover {
-    color: bisque;
-    transition: 1s ease-out;
-  }
-  
+  overflow-x: hidden;
+  transition: 0.7s;
+  padding-top: 50px;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  display: flex;
+  transition: width 0.5s;
+}
+
+.sidepanel a:hover {
+  color: gold;
+  transition: 1s ease-out;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 16px;
+  padding-bottom: 5px;
+}
+
+.openbtn {
+  display: flex;
+  float: right;
+  font-size: 16px;
+  cursor: pointer;
+  background-image: url("../../assets/Images/tech-back.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+  padding-top: 20px;
+  color: white;
+}
+
+.openbtn:hover {
+  color: bisque;
+  transition: 1s ease-out;
+}
