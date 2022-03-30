@@ -20,7 +20,7 @@ function Home() {
     </header>
    
     <div className='profile-container'>
-    <img className='card'  src={logo} alt="Ring"/>
+    <img className='card'  src={logo} alt="Ahammed Saad"/>
       {/* <img className='card' src={pic} alt="Ahammed Saad"/> */}
       <TypeAnimation className='type' cursor={false} sequence={["Hi! I'm Ahammed Saad. ", 3000]}/>
       <TypeAnimation  cursor={false} sequence={['Well Come To My Portfolio', 2000]}/>
