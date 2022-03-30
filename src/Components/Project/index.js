@@ -89,7 +89,7 @@ export default function Project() {
 
         <div className="Pigeon-blogs">
           <div className="links">
-            <a href="https://my-Pigeon-blogs.netlify.app/">
+            <a href="https://my-pigeon-blogs.vercel.app/">
               <i className="fa"></i>My Pigeon blog APP
             </a>
             <br />
