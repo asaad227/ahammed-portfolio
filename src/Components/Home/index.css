@@ -55,7 +55,7 @@ font-size: 12px;
   /* margin-top: 100px; */
   padding: 1.5rem;
   text-align: left;
-  color: inherit;
+ background-image: url("../../assets/Gif/smokey_background.gif");
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 10px;

@@ -18,6 +18,7 @@ h2:hover {
 .Pigeon-box {
   display: flex;
   margin: 20px;
+  background-image: url("../../assets/Gif/smokey_background.gif");
   width: 300px;
   height: auto;
   margin: 10px;

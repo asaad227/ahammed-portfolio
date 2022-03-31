@@ -15,13 +15,13 @@ function Home() {
   return (
     <div>
    <header className='project-nav'>
-    {/* <Nav/> */}
+
     
     </header>
    
     <div className='profile-container'>
     <img className='card'  src={logo} alt="Ahammed Saad"/>
-      {/* <img className='card' src={pic} alt="Ahammed Saad"/> */}
+
       <TypeAnimation className='type' cursor={false} sequence={["Hi! I'm Ahammed Saad. ", 3000]}/>
       <TypeAnimation  cursor={false} sequence={['Well Come To My Portfolio', 2000]}/>
       <TypeAnimation className="type"
