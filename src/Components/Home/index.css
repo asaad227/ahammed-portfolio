@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Metal+Mania&family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Island+Moments&family=Metal+Mania&family=Roboto:wght@300&display=swap");
 
-
-.home{
+.home {
   display: flex;
   position: fixed;
   flex-wrap: wrap;
@@ -9,53 +8,39 @@
   color: bisque;
 }
 
-.nav-bar{
+.nav-bar {
   display: flex;
   float: right;
 }
 
-.tech-steak{
-  padding-right: 10px;
-}
-
-
-.profile-container{
+.profile-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
   padding-top: 100px;
-  /* padding: 22px; */
   justify-content: space-between;
   text-align: justify;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 20px;
   font-style: italic;
 }
 
-.nav-home{
+.nav-home {
   display: flex;
   font-size: 18px;
 }
-.social-links{
-display: flex;
-padding: 10px 10px 10px 10px;
-font-size: 12px;
- gap:20px;
+.social-links {
+  display: flex;
+  padding: 10px 10px 10px 10px;
+  font-size: 12px;
+  gap: 20px;
 }
-
-.main-name:hover{
-  color: gold;
-  transition: 1s ease-out;
-}
-
-
 
 .card {
-  /* margin-top: 100px; */
   padding: 1.5rem;
   text-align: left;
- background-image: url("../../assets/Gif/smokey_background.gif");
+  background-image: url("../../assets/Gif/smokey_background.gif");
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 10px;
@@ -63,22 +48,21 @@ font-size: 12px;
   max-width: 100px;
 }
 
-.card:hover{
+.card:hover {
   border: 1px solid goldenrod;
 }
 
-
-.fa{
+.fa {
   font-size: large;
   color: #eaeaea;
 }
 
-.fa:hover{
+.fa:hover {
   color: gold;
   transition: 1s ease-out;
 }
 
-.type{
+.type {
   display: flex;
   margin-left: 25%;
   margin-right: 25%;
@@ -86,46 +70,7 @@ font-size: 12px;
   transition: 1s ease-out;
 }
 
-.type:hover{
+.type:hover {
   color: white;
   transition: 1s ease-out;
 }
-
-.image-icons{
-  width: 26px;
-  padding-right: 10px;
-}
-/* Switch {
-  height: 3em;
-  width: 7em;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-  background-color: white;
-  border-radius: 1.5em;
-  box-shadow: inset 1px 1px 8px 1px rgba(0, 0, 0, 0.3);
-  justify-self: flex-end;
-  align-self: center;
-  margin-right: 10px;
-}
-.Buttonswitch {
-  border-radius: 50%;
-  width: 3em;
-  height: 3em;
-  border: none;
-  align-self: center;
-  justify-self: center;
-  background-color: red;
-  box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.3);
-  justify-self: flex-start;
-  transition: all 1s ease-in;
-} */
-
-
-
-
-
-
-
-
-

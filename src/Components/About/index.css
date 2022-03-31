@@ -1,6 +1,4 @@
 
-
-
 .profile-about{
   display: flex;
   flex-direction: column;
@@ -14,4 +12,8 @@ color: gold;
 .type-profile:hover{
   color: white;
   transition: 1s ease-out;
+}
+.image-icons {
+  width: 26px;
+  padding-right: 10px;
 }

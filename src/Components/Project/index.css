@@ -6,40 +6,6 @@
   padding: 0 20px 0 20px;
 }
 
-h2:hover {
-  color: gold;
-}
-.Pigeon-blogs {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 25px;
-}
-
-.Pigeon-box {
-  display: flex;
-  margin: 20px;
-  background-image: url("../../assets/Gif/smokey_background.gif");
-  width: 300px;
-  height: auto;
-  margin: 10px;
-  flex-direction: column;
-  border: 2px solid gold;
-  border-radius: 5px;
-}
-.poetry-box {
-  display: flex;
-  width: 300px;
-  height: auto;
-  margin: 20px;
-  flex-direction: column;
-  border: 2px solid gold;
-  border-radius: 5px;
-}
-.container {
-  display: flex;
-  width: 200px;
-}
-
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -51,21 +17,17 @@ h2:hover {
 
 .flex-box {
   display: flex;
-  height: 400px;
-  border: 2px solid gold;
-  border-radius: 15px;
-}
-
-.gif-final-project {
-  border-radius: 15px;
-}
-.links {
-  display: flex;
+  margin: 20px;
+  background-image: url("../../assets/Gif/smokey_background.gif");
+  width: 300px;
+  height: auto;
+  margin: 10px;
   flex-direction: column;
+  border: 2px solid gold;
+  border-radius: 5px;
 }
 
 a {
-  /* color: #fff; */
   text-transform: uppercase;
   color: #f1f1f1;
   text-decoration: none;
@@ -93,7 +55,3 @@ a:hover:after {
 a:hover {
   color: gold;
 }
-
-/* .fa{
-    font-size: small;
-  } */
