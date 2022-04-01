@@ -28,6 +28,9 @@ export default function Nav() {
             <Link to="/about">
             <li><i className="fa"></i>About Me</li>
             </Link>
+            <Link to="/resume">
+            <li><i className="fa"></i>Resume</li>
+            </Link>
    
     </div>
     <button className="openbtn" onClick={openNav}>
