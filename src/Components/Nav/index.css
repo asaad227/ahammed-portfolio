@@ -14,7 +14,6 @@ li {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-
   overflow-x: hidden;
   transition: 0.7s;
   padding-top: 50px;
@@ -53,6 +52,7 @@ li {
   background-size: cover;
   border: none;
   padding-top: 20px;
+  padding-right: 10px;
   color: white;
 }
 

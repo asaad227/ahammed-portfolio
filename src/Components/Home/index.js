@@ -9,7 +9,6 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <div>
-      <header className="project-nav"></header>
 
       <div className="profile-container">
         <img className="card" src={logo} alt="Ahammed Saad" />

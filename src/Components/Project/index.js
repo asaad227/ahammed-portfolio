@@ -9,7 +9,7 @@ import Bootcampers2 from "../../assets/Gif/BootcampersSocial/bootcampersSocial-2
 export default function Project() {
   return (
     <div className="project">
-      <header className="project-nav">
+      <header>
         <Nav />
         <div className="social-links">
           <a href="https://www.linkedin.com/in/ahammed-saad-5341b3231/">

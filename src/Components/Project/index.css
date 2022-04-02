@@ -2,9 +2,9 @@
   flex-wrap: wrap;
 }
 
-.project-nav {
-  padding: 0 20px 0 20px;
-}
+/* .project-nav {
+  justify-content: space-between;
+} */
 
 .flex-container {
   display: flex;

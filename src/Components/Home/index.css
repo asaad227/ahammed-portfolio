@@ -1,17 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Island+Moments&family=Metal+Mania&family=Roboto:wght@300&display=swap");
 
-.home {
+
+
+/* .home {
   display: flex;
   position: fixed;
   flex-wrap: wrap;
   padding: 50px;
   color: bisque;
-}
+} */
 
-.nav-bar {
+/* .nav-bar {
   display: flex;
   float: right;
-}
+} */
 
 .profile-container {
   display: flex;
@@ -28,11 +30,13 @@
 
 .nav-home {
   display: flex;
+  padding-right: 10px;
   font-size: 18px;
 }
 .social-links {
   display: flex;
-  padding: 10px 10px 10px 10px;
+  padding-top: 20px;
+  padding-left: 10px;
   font-size: 12px;
   gap: 20px;
 }
