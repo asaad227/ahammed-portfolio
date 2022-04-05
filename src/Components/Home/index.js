@@ -11,7 +11,7 @@ function Home() {
     <div>
 
       <div className="profile-container">
-        <img className="card" src={logo} alt="Ahammed Saad" />
+        <img className="card" src={logo} alt="Ahammed Saad" loading="lazy" />
 
         <TypeAnimation
           className="type"

@@ -39,32 +39,32 @@ export default function Project() {
           <a href="https://simple-app2.netlify.app/">
             <i className="fa"></i>Simple App
           </a>
-          <img src={simpleAll} alt="Simple App" />
+          <img src={simpleAll} alt="Simple App" loading="lazy" />
         </div>
         <div className="flex-box">
           <a href="https://bootcampers-social.netlify.app/">
             <i className="fa"></i> Bootcampers Social App
           </a>
-          <img src={Bootcampers1} alt="Bootcampers Social App" />
+          <img src={Bootcampers1} alt="Bootcampers Social App" loading="lazy" />
         </div>
         <div className="flex-box">
           <a href="https://bootcampers-social.netlify.app/">
             <i className="fa"></i> Bootcampers Social App
           </a>
-          <img src={Bootcampers2} alt="Bootcampers Social App" />
+          <img src={Bootcampers2} alt="Bootcampers Social App" loading="lazy" />
         </div>
         <div className="flex-box">
           <a href="https://my-pigeon-blogs.vercel.app/">
             <i className="fa"></i>My Pigeon blog APP
           </a>
-          <img src={Pigeon1} alt="Simple App" />
+          <img src={Pigeon1} alt="My Pigeon Blogs" loading="lazy" />
         </div>
 
         <div className="flex-box">
           <a href="https://poetry-finder.netlify.app/">
             <i className="fa"></i>Poetry Finder APP
           </a>
-          <img src={poetry} alt="Poetry Finder" />
+          <img src={poetry} alt="Poetry Finder" loading="lazy" />
         </div>
       </div>
     </div>

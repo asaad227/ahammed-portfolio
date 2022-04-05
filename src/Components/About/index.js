@@ -106,7 +106,7 @@ export default function About() {
       <img className="git-state"
         src="https://github-readme-stats.vercel.app/api?username=asaad227&show_icons=true&hide_border=false&title_color=ff652f&icon_color=FFE400&bg_color=09131B&text_color=ffffff&border_color=0c1a25"
         alt="gitHub-Stat"
-      />
+      loading="lazy"/>
 
       <h4>Tech Stack ____________________ </h4>
 
@@ -120,25 +120,25 @@ export default function About() {
         alt="Next"
       />
 
-      <img className="image-icons" src={Java} alt="Java" />
-      <img className="image-icons" src={Python} alt="Python" />
-      <img className="image-icons" src={nodejs} alt="nodejs" />
-      <img className="image-icons" src={npmOriginal} alt="npm-original" />
-      <img className="image-icons" src={html5Original} alt="html5" />
-      <img className="image-icons" src={css3Original} alt="css3" />
-      <img className="image-icons" src={figma} alt="Figma" />
-      <img className="image-icons" src={Chart} alt="Chart.js" />
-      <img className="image-icons" src={Heroku} alt="Heroku" />
-      <img className="image-icons" src={postGreSql} alt="postgresSql" />
-      <img className="image-icons" src={Postman} alt="Postman" />
-      <img className="image-icons" src={Auth0} alt="Auth0" />
-      <img className="image-icons" src={Enzyme} alt="Enzyme" />
-      <img className="image-icons" src={jestPlain} alt="jest" />
-      <img className="image-icons" src={ReactTesting} alt="jest" />
-      <img className="image-icons" src={Cpress} alt="Cypress" />
-      <img className="image-icons" src={Trello} alt="Trello" />
-      <img className="image-icons" src={Slack} alt="Slack" />
-      <img className="image-icons" src={vsCode} alt="vscode" />
+      <img className="image-icons" src={Java} alt="Java" loading="lazy" />
+      <img className="image-icons" src={Python} alt="Python" loading="lazy"/>
+      <img className="image-icons" src={nodejs} alt="nodejs" loading="lazy" />
+      <img className="image-icons" src={npmOriginal} alt="npm-original" loading="lazy" />
+      <img className="image-icons" src={html5Original} alt="html5" loading="lazy"/>
+      <img className="image-icons" src={css3Original} alt="css3" loading="lazy"/>
+      <img className="image-icons" src={figma} alt="Figma" loading="lazy"/>
+      <img className="image-icons" src={Chart} alt="Chart.js" loading="lazy"/>
+      <img className="image-icons" src={Heroku} alt="Heroku" loading="lazy"/>
+      <img className="image-icons" src={postGreSql} alt="postgresSql" loading="lazy"/>
+      <img className="image-icons" src={Postman} alt="Postman" loading="lazy"/>
+      <img className="image-icons" src={Auth0} alt="Auth0" loading="lazy"/>
+      <img className="image-icons" src={Enzyme} alt="Enzyme" loading="lazy"/>
+      <img className="image-icons" src={jestPlain} alt="jest" loading="lazy"/>
+      <img className="image-icons" src={ReactTesting} alt="jest" loading="lazy"/>
+      <img className="image-icons" src={Cpress} alt="Cypress" loading="lazy"/>
+      <img className="image-icons" src={Trello} alt="Trello" loading="lazy"/>
+      <img className="image-icons" src={Slack} alt="Slack" loading="lazy"/>
+      <img className="image-icons" src={vsCode} alt="vscode" loading="lazy"/>
     </div>
     </div>
   );
