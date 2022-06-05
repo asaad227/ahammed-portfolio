@@ -6,6 +6,7 @@ import Pigeon1 from "../../assets/Gif/Pigeon-blogs/Pigeon-blog-p1.gif";
 import poetry from "../../assets/Gif/poetry_finder.gif";
 import Bootcampers1 from "../../assets/Gif/BootcampersSocial/bootcampersSocial-1.gif";
 import Bootcampers2 from "../../assets/Gif/BootcampersSocial/bootcampersSocial-2.gif";
+import PokemonQ from '../../assets/Gif/Pokemon-q.gif'
 export default function Project() {
   return (
     <div className="project">
@@ -42,6 +43,12 @@ export default function Project() {
           <img src={simpleAll} alt="Simple App" loading="lazy" />
         </div>
         <div className="flex-box">
+          <a href="https://pokemon-q.vercel.app/">
+            <i className="fa"></i>Pokemon-Q
+          </a>
+          <img src={PokemonQ} alt="Pokemon-Q" loading="lazy" />
+        </div>
+        <div className="flex-box">
           <a href="https://bootcampers-social.netlify.app/">
             <i className="fa"></i> Bootcampers Social App
           </a>
@@ -59,6 +66,7 @@ export default function Project() {
           </a>
           <img src={Pigeon1} alt="My Pigeon Blogs" loading="lazy" />
         </div>
+       
 
         <div className="flex-box">
           <a href="https://poetry-finder.netlify.app/">
