@@ -60,3 +60,9 @@ li {
   color: bisque;
   transition: 1s ease-out;
 }
+
+@media screen and (max-width: 700px) {
+  .openbtn{
+    padding-right: 5px;
+  }
+}

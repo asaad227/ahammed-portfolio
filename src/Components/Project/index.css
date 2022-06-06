@@ -17,11 +17,10 @@
 
 .flex-box {
   display: flex;
-  margin: 20px;
   background-image: url("../../assets/Gif/smokey_background.gif");
   width: 500px;
   height: auto;
-  margin: 10px;
+  margin: 2px;
   flex-direction: column;
   border: 2px solid gold;
   border-radius: 5px;
@@ -54,4 +53,12 @@ a:hover:after {
 }
 a:hover {
   color: gold;
+}
+
+@media screen and (max-width: 700px) {
+  
+  .flex-box{
+    width: 300px;
+    height: auto;
+  }
 }
