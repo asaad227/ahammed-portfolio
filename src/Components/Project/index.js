@@ -7,6 +7,10 @@ import poetry from "../../assets/Gif/poetry_finder.gif";
 import Bootcampers1 from "../../assets/Gif/BootcampersSocial/bootcampersSocial-1.gif";
 import Bootcampers2 from "../../assets/Gif/BootcampersSocial/bootcampersSocial-2.gif";
 import PokemonQ from '../../assets/Gif/Pokemon-q.gif'
+import AsianRecipe from '../../assets/Gif/Asian-recipe/Asian-recipe-app.gif';
+import AsianRecipeResponsive from '../../assets/Gif/Asian-recipe/Asian Recipe.gif';
+import ECommerce from '../../assets/Gif/E-commerce-site/E-commerce.gif';
+import EcommerceResponsive from '../../assets/Gif/E-commerce-site/E-commerce-site.gif';
 export default function Project() {
   return (
     <div className="project">
@@ -53,6 +57,35 @@ export default function Project() {
           access and update the content, structure and style of the document.</p>
           <img src={PokemonQ} alt="Pokemon-Q" loading="lazy" />
         </div>
+        <div className="flex-box">
+          <a href="https://e-commerce-site-delta.vercel.app/">
+            <i className="fa"></i>E-commerce-site
+          </a>
+          <p>E-commerce recat app with localstorage for persistent data</p>
+          <img src={ECommerce} alt="E-commerce" loading="lazy" />
+        </div>
+        <div className="flex-box">
+          <a href="https://e-commerce-site-delta.vercel.app/">
+            <i className="fa"></i>E-commerce-responsive
+          </a>
+          <p>Responsive react e-commerce site with localstorage for persistent data</p>
+          <img src={EcommerceResponsive} alt="E-commerce-responsive" loading="lazy" />
+        </div>
+        <div className="flex-box">
+          <a href="https://asian-recipe.vercel.app/">
+            <i className="fa"></i>Asian-recipe
+          </a>
+          <p>Asian recipe App using react app</p>
+          <img src={AsianRecipe} alt="Asian-recipe" loading="lazy" />
+        </div>
+        <div className="flex-box">
+          <a href="https://asian-recipe.vercel.app/">
+            <i className="fa"></i>Asian-recipe-responsive
+          </a>
+          <p>Asian recipe App using react app</p>
+          <img src={AsianRecipeResponsive} alt="Asian-recipe-responsive" loading="lazy" />
+        </div>
+       
         <div className="flex-box">
           <a href="https://bootcampers-social.netlify.app/">
             <i className="fa"></i> Bootcampers Social App
