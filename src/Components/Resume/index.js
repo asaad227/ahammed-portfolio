@@ -1,7 +1,7 @@
 import React from 'react'
 import Nav from '../Nav';
 import "./index.css"
-import aSaadResume from "../../assets/Images/aSaadResume.png";
+import aSaadResume from "../../assets/Images/Ahammed Saad Resume (1).png";
 
 function Resume(){
  
