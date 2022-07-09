@@ -20,7 +20,7 @@ function Home() {
         />
         <TypeAnimation
           cursor={false}
-          sequence={["Well Come To My Portfolio", 2000]}
+          sequence={["WelCome To My Portfolio", 2000]}
         />
         <TypeAnimation
           className="type"
