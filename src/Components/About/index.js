@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from "../Nav";
-import pic from "../../assets/Images/ahammedSaad.png";
+import pic from "../../assets/Images/ahammedSaad_profile_pic.jpeg";
 import "./index.css";
 import Auth0 from "../../assets/Icons/auth0.png";
 import Typescript from "../../assets/Icons/Typescript_logo_2020.svg.png";
