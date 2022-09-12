@@ -1,7 +1,8 @@
 import React from 'react'
 import Nav from '../Nav';
 import "./index.css"
-import aSaadResume from "../../assets/Images/Ahammed Saad Resume (1).png";
+import aSaadResume from "../../assets/Images/ahammedSaadCv.png";
+import aSaadResume2 from "../../assets/Images/ahammedSaadCvPart2.png";
 
 function Resume(){
  
@@ -28,6 +29,8 @@ function Resume(){
         </div>
       </header>
        <img className='resume' src={aSaadResume} alt="Ahammed Saad Resume"/>
+       <img className='resume' src={aSaadResume2} alt="Ahammed Saad Resume"/>
+
       </div>
     );
 }
