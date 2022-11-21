@@ -44,13 +44,13 @@ const myData =[{
     id:7,
     name:"Random Password Maker",
     url:"https://randompassword-asaad227.vercel.app/",
-    project:"https://github.com/asaad227/ahammed-portfolio/blob/experiment/src/assets/Gif/RandomPassword/randomPassword.gif?raw=true",
+    project:"https://github.com/asaad227/ahammed-portfolio/blob/main/src/assets/Gif/RandomPassword/randomPassword.gif?raw=true",
     text:"Lets make your random password of your choice."
 },{
     id:8,
     name:"Card Game",
     url:"https://cardgame-theta.vercel.app/",
-    project:"https://github.com/asaad227/ahammed-portfolio/blob/experiment/src/assets/Gif/CardGame/cardGame.gif?raw=true",
+    project:"https://github.com/asaad227/ahammed-portfolio/blob/main/src/assets/Gif/CardGame/cardGame.gif?raw=true",
     text:"Card game randomly selected card for player and computer and score counted."
 }]
 
