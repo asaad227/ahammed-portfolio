@@ -24,6 +24,7 @@ function Resume(){
             {" "}
             <i className="fa fa-twitter"></i>
           </a>
+          <a href='../../assets/PDF/Ahammed_Saad_CV1.pdf' download="Ahammed_Saad_CV1.pdf">DownloadCv</a>
           <a href="mailto:a.saad227@gmail.com? subject=subject text"> <i className='fa fa-google'></i></a> 
       <a href="mailto:a.saad227@yahoo.com? subject=subject text"> <i className='fa fa-yahoo'></i></a>  
         </div>

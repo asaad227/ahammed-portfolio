@@ -10,10 +10,10 @@ li {
   height: auto;
   top: 0;
   right: 0;
-  background-image: url("../../assets/Images/tech-back.jpg");
+  /* background-image: url("../../assets/Images/tech-back.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
   overflow-x: hidden;
   transition: 0.7s;
   padding-top: 50px;
@@ -46,10 +46,11 @@ li {
   float: right;
   font-size: 16px;
   cursor: pointer;
-  background-image: url("../../assets/Images/tech-back.jpg");
+  /* background-image: url("../../assets/Images/tech-back.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+  background: #111;
   border: none;
   padding-top: 20px;
   padding-right: 10px;
