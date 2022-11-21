@@ -104,7 +104,7 @@ export default function About() {
     
      
       <img className="git-state"
-        src="https://github-readme-stats.vercel.app/api?username=asaad227&show_icons=true&hide_border=false&title_color=ff652f&icon_color=FFE400&bg_color=09131B&text_color=ffffff&border_color=0c1a25"
+        src="https://github-readme-stats.vercel.app/api?username=asaad227&show_icons=true&hide_border=false&title_color=ff652f&icon_color=aa6c39&bg_color=f1f1f1&text_color=#111&border_color=0c1a25"
         alt="gitHub-Stat"
       loading="lazy"/>
 
