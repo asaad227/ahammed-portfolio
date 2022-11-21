@@ -1,7 +1,7 @@
 
 
 :root{
-  --bg-image: url("../src/assets/Images/tech-back.jpg");
+  --bg-image: url("../src/assets/Images/Image\ Background\ Dark\ Blue\ Minimal\ Phone\ Wallpaper.png");
  /* --bg-image: url("../src/assets/Gif/bganimation.gif"); */
  /* --bg-image: url("../src/assets/Gif/smokey_background.gif"); */
  --bg-white: url("../src/assets/Images/white-bg.jpg");
@@ -17,13 +17,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: var(--text-color);
-  /* background-image:var(--bg-image) ;
+  background-image:var(--bg-image) ;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-attachment: fixed; */
+  background-attachment: fixed;
 
-  background-color: var(--bg-color);
+  /* background-color: var(--bg-color); */
 
 }
 
