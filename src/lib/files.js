@@ -50,7 +50,7 @@ const myData =[{
     id:8,
     name:"Card Game",
     url:"https://cardgame-theta.vercel.app/",
-    project:"",
+    project:"https://github.com/asaad227/ahammed-portfolio/blob/experiment/src/assets/Gif/CardGame/cardGame.gif?raw=true",
     text:"Card game randomly selected card for player and computer and score counted."
 }]
 

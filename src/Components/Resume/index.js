@@ -1,8 +1,8 @@
 import React from 'react'
 import Nav from '../Nav';
 import "./index.css"
-import aSaadResume from "../../assets/Images/ahammedSaadCv.png";
-import aSaadResume2 from "../../assets/Images/ahammedSaadCvPart2.png";
+import aSaadResume from "../../assets/Images/AhammedSaadCV1.png";
+import aSaadResume2 from "../../assets/Images/AhammedSaadCV2.png";
 
 function Resume(){
  

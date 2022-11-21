@@ -23,6 +23,7 @@
   margin: 2px;
   flex-direction: column;
   border: 2px solid gold;
+  box-shadow: 5px 1px 1px 3px #b2a1a1;
   border-radius: 5px;
 }
 
