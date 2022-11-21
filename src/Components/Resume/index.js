@@ -26,7 +26,7 @@ function Resume(){
           </a>
           <a href="mailto:a.saad227@gmail.com? subject=subject text"> <i className='fa fa-google'></i></a> 
       <a href="mailto:a.saad227@yahoo.com? subject=subject text"> <i className='fa fa-yahoo'></i></a> 
-      <a href='https://github.com/asaad227/ahammed-portfolio/blob/experiment/src/assets/PDF/Ahammed_Saad_CV1.pdf?raw=true' download="Ahammed_Saad_CV1.pdf"><i className="fa fa-download">CV</i></a> 
+      <a href='https://github.com/asaad227/ahammed-portfolio/blob/main/src/assets/PDF/Ahammed_Saad_CV.pdf?raw=true' download="Ahammed_Saad_CV.pdf"><i className="fa fa-download">CV</i></a> 
         </div>
       </header>
        <img className='resume' src={aSaadResume} alt="Ahammed Saad Resume"/>
