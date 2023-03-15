@@ -52,6 +52,12 @@ const myData =[{
     url:"https://cardgame-theta.vercel.app/",
     project:"https://github.com/asaad227/ahammed-portfolio/blob/main/src/assets/Gif/CardGame/cardGame.gif?raw=true",
     text:"Card game randomly selected card for player and computer and score counted."
+},{
+    id:9,
+    name:"BoxPickerKidGame",
+    url:"https://box-picker-kids.vercel.app/",
+    project:"https://github.com/asaad227/ahammed-portfolio/blob/main/src/assets/Gif/BoxPickerGame/BoxPickerGame.gif?raw=true",
+    text:"Box with hidden Espeon pokemon, so find the Espeon and get the level up. You have three level to choose from."  
 }]
 
 
