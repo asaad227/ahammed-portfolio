@@ -33,15 +33,7 @@
   padding-right: 10px;
   font-size: 18px;
 }
-.social-links {
-  display: flex;
- justify-content: center;
- top: 0;
-  padding-top: 20px;
-padding-bottom: 10px;
-  font-size: 12px;
-  gap: 20px;
-}
+
 
 .card {
   padding: 1.5rem;
@@ -58,15 +50,7 @@ padding-bottom: 10px;
   border: 1px solid goldenrod;
 }
 
-.fa {
-  font-size: large;
-  color: #eaeaea;
-}
 
-.fa:hover {
-  color: gold;
-  transition: 1s ease-out;
-}
 
 .type {
   display: flex;

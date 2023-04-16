@@ -1,0 +1,23 @@
+.social-links {
+    display: flex;
+   justify-content: center;
+   top: 0;
+    padding-top: 20px;
+  padding-bottom: 10px;
+    font-size: 12px;
+    gap: 20px;
+  }
+
+  .fa {
+    font-size: large;
+    color: #eaeaea;
+  }
+  
+  .fa:hover {
+    color: gold;
+    transition: 1s ease-out;
+  }
+
+  .social-links div{
+font-size: large;
+  }

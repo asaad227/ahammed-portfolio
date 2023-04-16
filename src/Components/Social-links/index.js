@@ -1,8 +1,10 @@
 import React from 'react'
+import "./index.css"
 
 export default function SocialLink() {
   return (
-    <div className="social-links">
+    <footer className="social-links">
+    <div>Contact me:</div>
     <a href="https://www.linkedin.com/in/ahammed-saad-5341b3231/">
       {" "}
       <i className="fa fa-linkedin"></i>
@@ -23,6 +25,7 @@ export default function SocialLink() {
       {" "}
       <i className="fa fa-yahoo"></i>
     </a>
-  </div>
+    </footer>
+
   )
 }
