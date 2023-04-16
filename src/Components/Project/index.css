@@ -18,12 +18,12 @@
 .flex-box {
   display: flex;
   background-image: url("../../assets/Gif/smokey_background.gif");
-  width: 500px;
-  height: auto;
+  /* width: 500px;
+  height: auto; */
   margin: 2px;
   flex-direction: column;
-  border: 2px solid gold;
-  box-shadow: 5px 1px 1px 3px #b2a1a1;
+  border: 1px solid #b8bfc2;
+  box-shadow: 1px 0px 6px white;
   border-radius: 5px;
 }
 
@@ -56,10 +56,10 @@ a:hover {
   color: gold;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
   
-  .flex-box{
+  /* .flex-box{
     width: 300px;
     height: auto;
-  }
+  } */
 }

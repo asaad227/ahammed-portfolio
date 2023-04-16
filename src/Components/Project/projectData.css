@@ -1,0 +1,54 @@
+/* most of the css come 
+from node_modules\react-responsive-carousel\lib\styles\carousel.css */
+.carousel-root {
+    width: 45vw;
+    height: 85vh;
+    margin-left: 350px;
+}
+
+img{
+    border: 1px solid #b8bfc2;
+    box-shadow: 1px 0px 6px white;
+}
+
+a {
+    text-transform: uppercase;
+    color: #f1f1f1;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    position: relative;
+  }
+  
+  a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: gold;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  a:hover:after {
+    width: 100%;
+    left: 0;
+  }
+  a:hover {
+    color: gold;
+  }
+  
+  @media screen and (max-width: 768px){
+  .carousel.carousel-slider .control-arrow {
+      top: 30%;
+      padding: 1px;
+  }
+  .carousel-root {
+    width: 85vw;
+    height: 50vh;
+    margin-left: 25px;
+}
+
+}

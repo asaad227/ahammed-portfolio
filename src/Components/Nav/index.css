@@ -9,7 +9,7 @@ li {
   z-index: 1;
   height: auto;
   top: 0;
-  right: 0;
+  left: 0;
   background-image: url("../../assets/Images/Image\ Background\ Dark\ Blue\ Minimal\ Phone\ Wallpaper.png");
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -43,7 +43,6 @@ li {
 
 .openbtn {
   display: flex;
-  float: right;
   font-size: 16px;
   cursor: pointer;
   background-image: url("../../assets/Images/Image\ Background\ Dark\ Blue\ Minimal\ Phone\ Wallpaper.png");
@@ -62,7 +61,7 @@ li {
   transition: 1s ease-out;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
   .openbtn{
     padding-right: 5px;
   }
