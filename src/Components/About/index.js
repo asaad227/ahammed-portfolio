@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from "../Nav";
-import pic from "../../assets/Images/Profile-pic.png";
+import pic from "../../assets/Images/ahammed-fb-profile.jpeg";
 import TypeAnimation from "react-type-animation";
 import "./index.css";
 

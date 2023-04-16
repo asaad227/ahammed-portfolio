@@ -5,7 +5,8 @@
  --bg-white: url("../../assets/Images/white-bg.jpg");
   --text-main : azure;
   --text-second: #000;
-  --bg-color: #111;  
+  --bg-color: #111; 
+  --bg-lightBlue: #84c4d4; 
 }
 
 li {
@@ -20,7 +21,7 @@ li {
   height: auto;
   top: 0;
   left: 0;
-  background-image: var(--bg-image);
+  background-image: var(--bg-lightBlue);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -33,7 +34,7 @@ li {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 16px;
-  color: white;
+  color:var(--text-second);
   display: flex;
   transition: width 0.5s;
 }
@@ -55,15 +56,16 @@ li {
   display: flex;
   font-size: 16px;
   cursor: pointer;
-  background-image: var(--bg-image);
+  background: var(--bg-lightBlue);
+  /* background-image: var(--bg-lightBlue);
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
   /* background: #111; */
   border: none;
   padding-top: 20px;
   padding-right: 10px;
-  color: white;
+  color:var(--text-second);
 }
 
 .openbtn:hover {

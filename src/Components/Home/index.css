@@ -7,6 +7,7 @@
   --text-main : azure;
   --text-second: #000;
   --bg-color: #111;  
+  --bg-lightBlue: #84c4d4;
 }
 
 .profile-container {
@@ -35,9 +36,9 @@
 .card {
   padding: 1.5rem;
   text-align: left;
-  background-image: var(--bg-image);
+  background-image: var(--bg-lightBlue);
   text-decoration: none;
-  /* border: 1px solid #b8bfc2; */
+  border: 1px solid #b8bfc2;
   box-shadow: 1px 0px 6px white;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 100px;
