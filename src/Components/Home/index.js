@@ -5,6 +5,7 @@ import logo from "../../assets/Gif/logo.gif";
 import TypeAnimation from "react-type-animation";
 import "../Nav/index.css";
 import { Link } from "react-router-dom";
+import SocialLink from "../Social-links";
 
 function Home() {
   return (
@@ -59,28 +60,7 @@ function Home() {
             </li>
           </Link>
         </div>
-        <div className="social-links">
-          <a href="https://www.linkedin.com/in/ahammed-saad-5341b3231/">
-            {" "}
-            <i className="fa fa-linkedin"></i>-linkedin
-          </a>
-          <a href="https://github.com/asaad227">
-            {" "}
-            <i className="fa fa-github"></i>-github
-          </a>
-          <a href="https://twitter.com/a_saad227">
-            {" "}
-            <i className="fa fa-twitter"></i>-twitter
-          </a>
-          <a href="mailto:a.saad227@gmail.com? subject=subject text">
-            {" "}
-            <i className="fa fa-google"></i>-mail
-          </a>
-          <a href="mailto:a.saad227@yahoo.com? subject=subject text">
-            {" "}
-            <i className="fa fa-yahoo"></i>-mail
-          </a>
-        </div>
+        <SocialLink/>
       </div>
     </div>
   );

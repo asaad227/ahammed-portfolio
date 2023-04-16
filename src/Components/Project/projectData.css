@@ -6,7 +6,7 @@ from node_modules\react-responsive-carousel\lib\styles\carousel.css */
     margin-left: 350px;
 }
 
-img{
+.projectImg{
     border: 1px solid #b8bfc2;
     box-shadow: 1px 0px 6px white;
 }

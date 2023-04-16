@@ -18,7 +18,7 @@ export default function ProjectData() {
       <a href={e.url}>
       <h4>{e.name}</h4>
       </a>
-      <img src={e.project} alt={e.name}/>
+      <img className='projectImg' src={e.project} alt={e.name}/>
       </div>)
     })}
     </Carousel>
