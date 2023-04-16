@@ -1,3 +1,12 @@
+:root{
+  --bg-image: url("../../assets/Images/smokey.png");
+ /* --bg-image: url("../src/assets/Gif/bganimation.gif"); */
+ /* --bg-image: url("../src/assets/Gif/smokey_background.gif"); */
+ --bg-white: url("../../assets/Images/white-bg.jpg");
+  --text-main : azure;
+  --text-second: #000;
+  --bg-color: #111;  
+}
 .App {
     text-align: center;
  

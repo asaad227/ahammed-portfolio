@@ -1,10 +1,23 @@
 /* most of the css come 
 from node_modules\react-responsive-carousel\lib\styles\carousel.css */
+:root{
+    --bg-image: url("../../assets/Images/smokey.png");
+   /* --bg-image: url("../src/assets/Gif/bganimation.gif"); */
+   /* --bg-image: url("../src/assets/Gif/smokey_background.gif"); */
+   --bg-white: url("../../assets/Images/white-bg.jpg");
+    --text-main : azure;
+    --text-second: #000;
+    --bg-color: #111;  
+  }
+
+
 .carousel-root {
     width: 45vw;
     height: 85vh;
     margin-left: 350px;
 }
+
+
 
 
 a {
@@ -43,8 +56,10 @@ a {
   }
   .carousel-root {
     width: 85vw;
-    height: 50vh;
+    height: 84vh;
     margin-left: 25px;
 }
+
+
 
 }

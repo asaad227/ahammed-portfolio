@@ -1,12 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Island+Moments&family=Metal+Mania&family=Roboto:wght@300&display=swap");
-
+:root{
+  --bg-image: url("../../assets/Images/smokey.png");
+ /* --bg-image: url("../src/assets/Gif/bganimation.gif"); */
+ /* --bg-image: url("../src/assets/Gif/smokey_background.gif"); */
+ --bg-white: url("../../assets/Images/white-bg.jpg");
+  --text-main : azure;
+  --text-second: #000;
+  --bg-color: #111;  
+}
 
 .profile-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
-  padding-top: 100px;
+  height: 92vh;
+  padding-top: 1.5rem;
   justify-content: space-between;
   font-weight: 500;
   font-size: 1rem;
@@ -26,9 +35,9 @@
 .card {
   padding: 1.5rem;
   text-align: left;
-  background-image: url("../../assets/Gif/smokey_background.gif");
+  background-image: var(--bg-image);
   text-decoration: none;
-  border: 1px solid #b8bfc2;
+  /* border: 1px solid #b8bfc2; */
   box-shadow: 1px 0px 6px white;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 100px;

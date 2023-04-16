@@ -10,9 +10,7 @@ export default function ProjectData() {
     const [data, ] = useState(myData)
     return (
         <div>
-             <header>
         <Nav />
-      </header>
         <Carousel className='sliderDiv'>
          {data.map(e=>{
       return (<div    key={e.id}>
@@ -23,7 +21,7 @@ export default function ProjectData() {
       </div>)
     })}
     </Carousel>
-    <SocialLink/>
+   <SocialLink/>
     </div>
     );
 }

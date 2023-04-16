@@ -1,3 +1,13 @@
+:root{
+  --bg-image: url("../../assets/Images/smokey.png");
+ /* --bg-image: url("../src/assets/Gif/bganimation.gif"); */
+ /* --bg-image: url("../src/assets/Gif/smokey_background.gif"); */
+ --bg-white: url("../../assets/Images/white-bg.jpg");
+  --text-main : azure;
+  --text-second: #000;
+  --bg-color: #111;  
+}
+
 li {
   list-style: none;
   margin: 10px;
@@ -10,7 +20,7 @@ li {
   height: auto;
   top: 0;
   left: 0;
-  background-image: url("../../assets/Images/Image\ Background\ Dark\ Blue\ Minimal\ Phone\ Wallpaper.png");
+  background-image: var(--bg-image);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -45,7 +55,7 @@ li {
   display: flex;
   font-size: 16px;
   cursor: pointer;
-  background-image: url("../../assets/Images/Image\ Background\ Dark\ Blue\ Minimal\ Phone\ Wallpaper.png");
+  background-image: var(--bg-image);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
