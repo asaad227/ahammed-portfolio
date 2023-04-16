@@ -10,7 +10,6 @@ import SocialLink from "../Social-links";
 function Home() {
   return (
     <div>
-
       <div className="profile-container">
         <img className="card" src={logo} alt="Ahammed Saad" loading="lazy" />
 

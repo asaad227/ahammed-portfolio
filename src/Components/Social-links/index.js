@@ -4,7 +4,6 @@ import "./index.css"
 export default function SocialLink() {
   return (
     <footer className="social-links">
-    <div>Contact me:</div>
     <a href="https://www.linkedin.com/in/ahammed-saad-5341b3231/">
       {" "}
       <i className="fa fa-linkedin"></i>

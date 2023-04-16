@@ -1,20 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Island+Moments&family=Metal+Mania&family=Roboto:wght@300&display=swap");
 
 
-
-/* .home {
-  display: flex;
-  position: fixed;
-  flex-wrap: wrap;
-  padding: 50px;
-  color: bisque;
-} */
-
-/* .nav-bar {
-  display: flex;
-  float: right;
-} */
-
 .profile-container {
   display: flex;
   flex-direction: column;
@@ -22,10 +8,12 @@
   flex-wrap: wrap;
   padding-top: 100px;
   justify-content: space-between;
-  text-align: justify;
-  font-family: "Playfair Display", serif;
-  font-size: 20px;
-  font-style: italic;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
 }
 
 .nav-home {
@@ -40,8 +28,8 @@
   text-align: left;
   background-image: url("../../assets/Gif/smokey_background.gif");
   text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
+  border: 1px solid #b8bfc2;
+  box-shadow: 1px 0px 6px white;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 100px;
 }
