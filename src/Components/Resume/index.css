@@ -16,10 +16,11 @@
 .resume{
  align-items: center;
     width: 500px;
-    padding: 20px;
+    /* padding: 20px; */
     height: auto;
-    /* border: 1px solid #b8bfc2; */
+    border: 1px solid #b8bfc2;
     box-shadow: 1px 0px 6px white;
+    margin: 10px;
  
 }
 
@@ -28,7 +29,7 @@
     .resume{
         width: 300px;
         height: auto;
-        padding: 20px;
+        /* padding: 20px; */
     }
     
 }

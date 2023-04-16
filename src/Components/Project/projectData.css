@@ -13,8 +13,9 @@ from node_modules\react-responsive-carousel\lib\styles\carousel.css */
 
 .carousel-root {
     width: 45vw;
-    height: 85vh;
-    margin-left: 350px;
+    height: 78vh;
+    margin-left: 425px;
+
 }
 
 
@@ -56,8 +57,8 @@ a {
   }
   .carousel-root {
     width: 85vw;
-    height: 84vh;
-    margin-left: 25px;
+    height: 78vh;
+    margin-left: 20px;
 }
 
 

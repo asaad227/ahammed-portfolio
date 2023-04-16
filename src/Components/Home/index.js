@@ -3,7 +3,7 @@ import "../../index.css";
 import "./index.css";
 import logo from "../../assets/Gif/logo.gif";
 import TypeAnimation from "react-type-animation";
-import "../Nav/index.css";
+import "../Menu2/index.css";
 import { Link } from "react-router-dom";
 import SocialLink from "../Social-links";
 
@@ -59,7 +59,7 @@ function Home() {
             </li>
           </Link>
         </div>
-        <SocialLink/>
+        <SocialLink />
       </div>
     </div>
   );
