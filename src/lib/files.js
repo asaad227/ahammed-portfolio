@@ -23,7 +23,7 @@ const myData =[{
     id:4,
     name:"BoxPickerKidGame",
     url:"https://box-picker.netlify.app/",
-    project:"https://github.com/asaad227/ahammed-portfolio/blob/main/src/assets/Gif/BoxPickerGame/BoxPickerGame.gif?raw=true",
+    project:"https://github.com/asaad227/ahammed-portfolio/blob/main/src/assets/Gif/BoxPickerGame/box-picker-kids-netlify-leaderboard.gif?raw=true",
     text:"Box with hidden Espeon pokemon, so find the Espeon and get the level up. You have three level to choose from." 
 },
 {
