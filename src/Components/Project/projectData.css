@@ -31,7 +31,7 @@ from node_modules\react-responsive-carousel\lib\styles\carousel.css */
 
 
 
-a {
+.carousel a {
     text-transform: uppercase;
     color: #f1f1f1;
     text-decoration: none;
@@ -40,9 +40,9 @@ a {
     position: relative;
   }
   
-  a:after {
+  .carousel a:after {
     background: none repeat scroll 0 0 transparent;
-    bottom: 0;
+    bottom: 10px;
     content: "";
     display: block;
     height: 2px;
@@ -52,11 +52,11 @@ a {
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
   }
-  a:hover:after {
+  .carousel a:hover:after {
     width: 100%;
     left: 0;
   }
-  a:hover {
+  .carousel a:hover {
     color: gold;
   }
 
