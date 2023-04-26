@@ -9,23 +9,22 @@ const myData =[{
 },
 {
     id:2,
-    name:"Asian Recipe",
-    url:"https://asian-recipe.vercel.app/",
-    project:"https://i.ibb.co/2qGKsvB/Asian-Recipe.gif",
-    part:"https://i.ibb.co/zSds7X9/Asian-recipe-app.gif"
+    name:"My App with Auth0",
+    url:"https://my-reminder-recipe.vercel.app/",
+    project:"https://github.com/asaad227/ahammed-portfolio/blob/main/src/assets/Gif/myApp-Auth0/My-App-with-auth0.gif?raw=true",
 },
 {
-    id:9,
+    id:3,
     name:"BoxPickerKidGame",
     url:"https://box-picker-kids.vercel.app/",
     project:"https://github.com/asaad227/ahammed-portfolio/blob/main/src/assets/Gif/BoxPickerGame/BoxPickerGame.gif?raw=true",
     text:"Box with hidden Espeon pokemon, so find the Espeon and get the level up. You have three level to choose from." 
 },
 {
-    id:8,
-    name:"Card Game",
-    url:"https://cardgame-theta.vercel.app/",
-    project:"https://github.com/asaad227/ahammed-portfolio/blob/main/src/assets/Gif/CardGame/cardGame.gif?raw=true",
+    id:4,
+    name:"My Recipe App with calorie calculator",
+    url:"https://my-recipe-calories-calculator.vercel.app/",
+    project:"https://github.com/asaad227/ahammed-portfolio/blob/main/src/assets/Gif/My-recipe-App/My-App-p1.gif?raw=true",
     text:"Card game randomly selected card for player and computer and score counted."
 },{
     id:5,
