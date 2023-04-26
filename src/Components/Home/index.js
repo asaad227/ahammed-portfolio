@@ -19,6 +19,7 @@ function Home() {
           sequence={["Hi! I'm Ahammed Saad. ", 3000]}
         />
         <TypeAnimation
+        className="headerTxt"
           cursor={false}
           sequence={["WelCome To My Portfolio", 2000]}
         />

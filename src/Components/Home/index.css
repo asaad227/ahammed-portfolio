@@ -14,24 +14,35 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  width: 90vw;
   height: 88vh;
-  padding-top: 1.5rem;
-  justify-content: space-between;
-  font-weight: 500;
-  font-size: 1rem;
-  line-height: 1.75;
-  letter-spacing: 0.02857em;
-  text-transform: uppercase;
-  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  border: 1px solid #b8bfc2;
+  box-shadow: 1px 0px 6px white;
+  /* background-color: #84c4d4;
+  color: #fff; */
+  border-top-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
 }
 
 .nav-home {
   display: flex;
-  padding-right: 10px;
   font-size: 18px;
 }
-
+.headerTxt{
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 800;
+  font-size: 1rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  color: gold;
+  transition: 1s ease-out;
+  margin: 20px auto;
+}
 
 .card {
   padding: 1.5rem;
@@ -52,10 +63,15 @@
 
 .type {
   display: flex;
-  margin-left: 25%;
-  margin-right: 25%;
+ margin: 20px auto;
   color: gold;
   transition: 1s ease-out;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 800;
+  font-size: 1rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+ 
 }
 
 .type:hover {
