@@ -34,9 +34,10 @@
   font-size: 18px;
 }
 .headerTxt{
-  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-family: "Delicious Handrawn";
   font-weight: bolder;
-  font-size: 1rem;
+  color: var(--text-main);
+  font-size:2rem;
   line-height: 1.75;
   letter-spacing: 0.02857em;
   transition: 1s ease-out;
@@ -63,6 +64,7 @@
 .type {
   display: flex;
  margin: 20px auto;
+ color: var(--text-main);
   transition: 1s ease-out;
   font-family: "Roboto","Helvetica","Arial",sans-serif;
   font-weight: 800;
@@ -73,8 +75,9 @@
 }
 
 .opening-txt{
-  font-family: "Hanalei Fill","Roboto","Helvetica","Arial",sans-serif;
+  font-family: "Delicious Handrawn";
   font-weight: 800;
+  color: var(--text-main);
   font-size: 3rem;
   line-height: 1.75;
   letter-spacing: 0.02857em;
@@ -82,10 +85,10 @@
   margin: 20px auto;
 }
 
-.type:hover {
+/* .type:hover {
   color: white;
   transition: 1s ease-out;
-}
+} */
 
 
 .nav-home a {

@@ -21,13 +21,13 @@ padding: 40px 20% 0 20%;
     /* text-transform: uppercase; */
     font-family: "Roboto","Helvetica","Arial",sans-serif;
 
-color:var(--text-second);
+color:var(--text-main);
 /* padding: 20px; */
 }
-.type-profile:hover{
+/* .type-profile:hover{
   color:var(--text-main);
   transition: 1s ease-out;
-}
+} */
 
 .git-state{
   width: 500px;

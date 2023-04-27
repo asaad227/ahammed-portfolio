@@ -16,7 +16,7 @@ function Home() {
         <TypeAnimation
           className="opening-txt"
           cursor={false}
-          sequence={["Hello ", 3000]}
+          sequence={["Hi!!! ", 3000]}
         />
         <TypeAnimation
         className="headerTxt"

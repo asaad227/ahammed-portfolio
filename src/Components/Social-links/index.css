@@ -19,12 +19,12 @@ font-size: 12px;
 gap: 20px;
   }
 
-  .fa {
+  .social-links .fa {
     font-size: large;
-    color: #eaeaea;
+    color:var(--text-second);
   }
   
-  .fa:hover {
+  .social-links .fa:hover {
     color: gold;
     transition: 1s ease-out;
   }
