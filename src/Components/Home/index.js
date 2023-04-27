@@ -14,14 +14,14 @@ function Home() {
         <img className="card" src={logo} alt="Ahammed Saad" loading="lazy" />
 
         <TypeAnimation
-          className="type"
+          className="opening-txt"
           cursor={false}
-          sequence={["Hi! I'm Ahammed Saad. ", 3000]}
+          sequence={["Hello ", 3000]}
         />
         <TypeAnimation
         className="headerTxt"
           cursor={false}
-          sequence={["WelCome To My Portfolio", 2000]}
+          sequence={["Welcome To My Portfolio", 2000]}
         />
         <TypeAnimation
           className="type"

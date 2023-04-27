@@ -35,11 +35,10 @@
 }
 .headerTxt{
   font-family: "Roboto","Helvetica","Arial",sans-serif;
-  font-weight: 800;
+  font-weight: bolder;
   font-size: 1rem;
   line-height: 1.75;
   letter-spacing: 0.02857em;
-  color: gold;
   transition: 1s ease-out;
   margin: 20px auto;
 }
@@ -64,7 +63,6 @@
 .type {
   display: flex;
  margin: 20px auto;
-  color: gold;
   transition: 1s ease-out;
   font-family: "Roboto","Helvetica","Arial",sans-serif;
   font-weight: 800;
@@ -72,6 +70,16 @@
   line-height: 1.75;
   letter-spacing: 0.02857em;
  
+}
+
+.opening-txt{
+  font-family: "Hanalei Fill","Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  transition: 1s ease-out;
+  margin: 20px auto;
 }
 
 .type:hover {
