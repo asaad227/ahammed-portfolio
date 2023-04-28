@@ -20,7 +20,7 @@ export default function Project() {
               <h2>{e.name}</h2>
             </a>
             <p>{e.text}</p>
-            <img src={e.project} alt={e.name} />
+            <img src={e.project} alt={e.name} loading="lazy" />
           </div>)
         })}
       </div>

@@ -13,11 +13,11 @@ function Home() {
       <div className="profile-container">
         <img className="card" src={logo} alt="Ahammed Saad" loading="lazy" />
 
-        <TypeAnimation
+        {/* <TypeAnimation
           className="opening-txt"
           cursor={false}
           sequence={["Hi!!! ", 3000]}
-        />
+        /> */}
         <TypeAnimation
         className="headerTxt"
           cursor={false}

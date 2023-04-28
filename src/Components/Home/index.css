@@ -37,7 +37,7 @@
   font-family: "Delicious Handrawn";
   font-weight: bolder;
   color: var(--text-main);
-  font-size:2rem;
+  font-size:1rem;
   line-height: 1.75;
   letter-spacing: 0.02857em;
   transition: 1s ease-out;
@@ -78,7 +78,7 @@
   font-family: "Delicious Handrawn";
   font-weight: 800;
   color: var(--text-main);
-  font-size: 3rem;
+  font-size: 1rem;
   line-height: 1.75;
   letter-spacing: 0.02857em;
   transition: 1s ease-out;

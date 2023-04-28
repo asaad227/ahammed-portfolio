@@ -16,7 +16,7 @@ function Resume() {
       <header className="project-nav">
    <Nav/>
       </header>
-      <iframe src={Ahammed} width="100%" height="600px"></iframe>
+      <iframe src={Ahammed} className='resume-pdf'></iframe>
 
       {/* <img className='resume' src={aSaadResume} alt="Ahammed Saad Resume" />
       <img className='resume' src={aSaadResume2} alt="Ahammed Saad Resume" /> */}

@@ -26,15 +26,15 @@ import Heroku from "../../assets/Icons/heroku-original-wordmark.svg";
 export default function Icons() {
   return (
     <div>
- <img className="image-icons" src={Js} alt="Js" />
-      <img className="image-icons" src={item} alt="React" />
-      <img className="image-icons" src={Typescript} alt="Typescript" />
+ <img className="image-icons" src={Js} alt="Js" loading='lazy' />
+      <img className="image-icons" src={item} alt="React" loading='lazy' />
+      <img className="image-icons" src={Typescript} alt="Typescript" loading='lazy'/>
       <img
         className="image-icons"
         style={{ background: "white" }}
         src={Next}
         alt="Next"
-      />
+      loading='lazy'/>
 
       <img className="image-icons" src={Java} alt="Java" loading="lazy" />
       <img className="image-icons" src={Python} alt="Python" loading="lazy"/>
