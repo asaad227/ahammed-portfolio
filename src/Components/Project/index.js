@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./index.css";
 import Nav from "../Menu2";
 import myData from "../../lib/files"
-import SocialLink from "../Social-links";
 export default function Project() {
 
   const [data,] = useState(myData)
