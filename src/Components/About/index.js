@@ -17,12 +17,13 @@ export default function About() {
         <img className="card" src={pic} alt="Ahammed Saad" />
         <TypeAnimation cursor={false} sequence={["Ahammed Saad", 2000]} wrapper='h2' />
         <p className="type-profile">
-          Software Engineer with experience in full stack development, testing and
-          maintenance of software system. Equipped with a diverse and promising
-          skill-set. Proficient in various platform, and language. Knowledge with
-          cutting-edge development tool and procedure. Able to effectively
-          self-manage during independent project, as well as collaborate as part
-          of a team.
+        I am an exceptionally proactive and versatile developer with expertise in JavaScript, Java, Python, Node.js, React.js, TypeScript, SQL, PostgreSQL, MongoDB, and a range of development tools. I am well-versed in deploying applications using Heroku, Firebase, Express.js, and NPM, while also proficient in testing frameworks such as Jest, Cypress, and Enzyme. With a keen eye for design, I am adept at creating visually appealing interfaces using CSS, HTML, and tools like Figma and Canva.
+<br/>
+<br/> 
+Beyond my technical skills, I bring valuable experience in team building and coaching, fostering collaboration, and delivering projects efficiently. Drawing on my background as an accounting student, I possess knowledge in accountancy, law, and the financial market, enabling me to approach projects with a comprehensive understanding of business and financial aspects.
+<br/>
+<br/>
+I am highly motivated, proactive, and always eager to learn and adapt to new technologies and frameworks. With my diverse skill set, leadership abilities, and business acumen, I am well-prepared to make a significant impact on projects and contribute to the success of any team.
         </p>
         <h4>Hobbies ____________________</h4>
         <p className="type-profile">
