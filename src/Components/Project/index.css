@@ -58,10 +58,61 @@ a:hover {
   color: gold;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
+  .flex-container{
+    flex-direction: column;
+  }
+  .flex-box{
+    width: 90vw;
+    margin: 10px auto;
+  }
+  .project{
+    margin: 0 auto;
+  }
+  .project-nav{
+    margin: 0 auto;
+  }
+  .project-nav a{
+    margin: 0 auto;
+  }
+  .project-nav a:hover{
+    color: gold;
+  }
+  .project-nav a:after{
+    width: 100%;
+    left: 0;
+  }
+  .project-nav a:hover:after{
+    width: 100%;
+    left: 0;
+  }
+  .project-nav a:active{
+    color: gold;
+  }
+  .project-nav a:active:after{
+    width: 100%;
+    left: 0;
+  }
+  .project-nav a:focus{
+    color: gold;
+  }
+  .project-nav a:focus:after{
+    width: 100%;
+    left: 0;
+  }
+  .project-nav a:visited{
+    color: gold;
+  }
+  .project-nav a:visited:after{
+    width: 100%;
+    left: 0;
+  }
+  .project-nav a:link{
+    color: gold;
+  }
+  .project-nav a:link:after{
+    width: 100%;
+    left: 0;
+  }
   
-  /* .flex-box{
-    width: 300px;
-    height: auto;
-  } */
 }

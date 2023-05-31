@@ -81,15 +81,60 @@ from node_modules\react-responsive-carousel\lib\styles\carousel.css */
   }
   
   @media screen and (max-width: 768px){
-  .carousel.carousel-slider .control-arrow {
-      top: 30%;
-      padding: 1px;
+    .carousel-root {
+      width: 90vw;
+      height: 78vh;
+      margin: 0 auto;
+  
   }
-  .carousel-root {
-    width: 85vw;
-    height: 78vh;
-    margin-left: 20px;
-}
+  .detailsBtn{
+    margin-top: 0;
+  }
+
+  .carousel .control-dots {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    margin: 10px 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+  }
+  .carousel .control-dots .dot {
+    background: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    height: 8px;
+    margin: 0 4px;
+    padding: 0;
+    transition: opacity 200ms ease-in-out;
+    width: 8px;
+  }
+  .carousel .control-dots .dot.selected,
+  .carousel .control-dots .dot:hover {
+    opacity: 0.75;
+  }
+  .carousel .control-dots .dot.selected:hover {
+    opacity: 1;
+  }
+  .carousel .control-dots .dot:focus {
+    box-shadow: none;
+    outline: none;
+  }
+  .carousel .control-dots .dot.active {
+    background: #fff;
+  }
+  .carousel .control-dots .dot.active:hover {
+    opacity: 1;
+  }
+  .carousel .control-dots .dot.active:focus {
+    opacity: 1;
+  }
+  .carousel .control-dots .dot:focus {
+    outline: none;
+  }
+
 
 
 
