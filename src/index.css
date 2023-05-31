@@ -5,8 +5,8 @@
  --bg-white: url("./assets/Images/white-bg.jpg");
  /* --bg-lightBlue: #84c4d4; */
   --bg-lightBlue:#003366;
-  --text-main : azure;
-  --text-second: #000;
+  --text-main : #fff;
+  --text-second: #FFFF00;
   --bg-color: #111;  
 }
 body {

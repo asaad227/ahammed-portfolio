@@ -22,8 +22,14 @@
 
     .resume{
         width: 300px;
-        height: auto;
-        /* padding: 20px; */
     }
+    .resume-pdf{
+        width: 90vw;
+        height: 90vh;
+    }
+    .top-resume{
+        flex-direction: column;
+    }
+    
     
 }

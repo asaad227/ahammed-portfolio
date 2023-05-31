@@ -1,31 +1,26 @@
 
 .about{
+margin: 0 auto;
 padding: 40px 20% 0 20%;
- text-align: start;
-  
+text-align: start;
+
 }
 
 .type-profile{
   font-weight: 500;
-    font-size: 0.875rem;
+    font-size: 1rem;
     line-height: 1.75;
     letter-spacing: 0.02857em;
     /* text-transform: uppercase; */
     font-family: "Roboto","Helvetica","Arial",sans-serif;
-
-color:var(--text-main);
-/* padding: 20px; */
+    color: var(--text-main);
 }
-/* .type-profile:hover{
-  color:var(--text-main);
-  transition: 1s ease-out;
-} */
-
 .git-state{
-  width: 500px;
+ 
+  width: 400px;
 }
 .image-icons {
-  width: 26px;
+  width: 30px;
   padding-right: 10px;
   
 }
@@ -38,11 +33,23 @@ color:var(--text-main);
 }
 
 @media screen and (max-width: 700px) {
- .about {
-  padding: 20px 12% 0 12%;
-  }
+.about{
+  padding: 40px 10% 0 10%;
+  
+}
 .git-state{
-  width: 200px;
+  width: 300px;
 }
+.socialLogo{
+  width: 80vw;
+  margin-left: 10%;
 }
+
+.type-profile{
+  font-size: 0.875rem;
+  
+}
+
+}
+
 
