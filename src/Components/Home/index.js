@@ -24,7 +24,7 @@ function Home() {
           sequence={["Welcome To My Portfolio", 2000]}
         />
         <TypeAnimation
-          className="type"
+          className="headerTxt"
           sequence={[
             "Software Engineer",
             2000,

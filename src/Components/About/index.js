@@ -11,19 +11,27 @@ import Nav from "../Nav";
 export default function About() {
   return (
     <div >
- <Nav/>
+      <Nav />
 
       <div className="about">
         <img className="card" src={pic} alt="Ahammed Saad" />
         <TypeAnimation cursor={false} sequence={["Ahammed Saad", 2000]} wrapper='h2' />
         <p className="type-profile">
-        I am an exceptionally proactive and versatile developer with expertise in JavaScript, Java, Python, Node.js, React.js, TypeScript, SQL, PostgreSQL, MongoDB, and a range of development tools. I am well-versed in deploying applications using Heroku, Firebase, Express.js, and NPM, while also proficient in testing frameworks such as Jest, Cypress, and Enzyme. With a keen eye for design, I am adept at creating visually appealing interfaces using CSS, HTML, and tools like Figma and Canva.
-<br/>
-<br/> 
-Beyond my technical skills, I bring valuable experience in team building and coaching, fostering collaboration, and delivering projects efficiently. Drawing on my background as an accounting student, I possess knowledge in accountancy, law, and the financial market, enabling me to approach projects with a comprehensive understanding of business and financial aspects.
-<br/>
-<br/>
-I am highly motivated, proactive, and always eager to learn and adapt to new technologies and frameworks. With my diverse skill set, leadership abilities, and business acumen, I am well-prepared to make a significant impact on projects and contribute to the success of any team.
+          I am an accomplished and versatile developer with expertise in various programming languages and technologies. My skill set includes JavaScript, Java, Python, Node.js, React.js, TypeScript, SQL, PostgreSQL, MongoDB, and a wide range of development tools. I have a strong proficiency in deploying applications using platforms such as Heroku, Firebase, Express.js, and NPM. Additionally, I am well-versed in testing frameworks like Jest, Cypress, and Enzyme.
+          <br />
+          <br />
+          With a keen eye for design, I possess the ability to create visually appealing interfaces using CSS, HTML,bootstrap, storybook and tools like wireframe.cc, Figma and Canva. I prioritize user experience and strive to develop intuitive and engaging interfaces that enhance the overall usability of applications.
+          <br />
+          <br />
+          In addition to my technical skills, I bring valuable experience in team building and coaching. I have a proven track record of fostering collaboration and effectively leading teams to deliver projects efficiently. My background as an accounting student has provided me with a comprehensive understanding of business and financial aspects, allowing me to approach projects with a well-rounded perspective.
+          <br />
+          <br />
+          I am highly motivated, proactive, and committed to continuous learning. I thrive in dynamic environments and readily adapt to new technologies and frameworks. With my diverse skill set, leadership abilities, and business acumen, I am confident in my ability to make a significant impact on projects and contribute to the success of any team.
+
+          <br />
+          <br />
+          Thank you for considering my qualifications. I look forward to the opportunity to contribute my expertise and skills to your organization.
+
         </p>
         <h4>Hobbies ____________________</h4>
         <p className="type-profile">
