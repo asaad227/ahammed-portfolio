@@ -130,6 +130,7 @@ li {
 .dark-mode .fa-moon-o, .dark-mode .fa-sun{
   box-sizing: border-box;
   border: 2px solid var(--text-main);
+  border-radius: 50%;
   padding: 3px;
   box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
   margin-right: 90vw;
