@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 import "./index.css"
 import pageA from "../../assets/CV/1.png"
@@ -11,21 +11,22 @@ import SocialLink from '../Social-links';
 import Nav from '../Nav';
 
 function Resume() {
+const [toggle, setToggle] = useState(false);
 function screenSizes() {
   const width = window.innerWidth;
   if (width <= 600) {
-    return (<div><img className='resume' src={pageA} loading='lazy' alt="Ahammed Saad Resume" />
-    <img className='resume' src={pageB} loading='lazy' alt="Ahammed Saad Resume" />
-    <img className='resume' src={pageC} loading='lazy' alt="Ahammed Saad Resume" />
-    <img className='resume' src={pageD} loading='lazy' alt="Ahammed Saad Resume" />
-    </div> )
-  }else{
-    return <iframe src={Ahammed} loading='lazy' className='resume-pdf'></iframe>
-
+    setToggle(true);
+  } else {
+    setToggle(false);
   }
- 
 }
-
+useEffect(() => {
+  screenSizes();
+  window.addEventListener("resize", screenSizes);
+  return () => {
+    window.removeEventListener("resize", screenSizes);
+  };
+}, []);
 
   return (
     <div className='top-resume'>
@@ -33,7 +34,12 @@ function screenSizes() {
    <Nav/>
       </header>
       <div className='resume-container'>
-      {screenSizes()}
+      <div><img className={toggle?'resume':'resumeHide'} src={pageA} loading='lazy' alt="Ahammed Saad Resume" />
+    <img className={toggle?'resume':'resumeHide'} src={pageB} loading='lazy' alt="Ahammed Saad Resume" />
+    <img className={toggle?'resume':'resumeHide'} src={pageD} loading='lazy' alt="Ahammed Saad Resume" />
+    <img className={toggle?'resume':'resumeHide'} src={pageC} loading='lazy' alt="Ahammed Saad Resume" />
+    </div>
+    <iframe src={Ahammed} loading='lazy' className={!toggle? 'resume-pdf':'resume-pdfHide'}></iframe>
       </div>
       <SocialLink />
     </div>

@@ -3,6 +3,13 @@
     width: 80vw;
     height: 80vh;
 }
+.resume-pdf:hover{
+    border: 1px solid gold;
+    transition: 1s ease-out;
+}
+.resume-pdfHide{
+    display: none;
+}
 .top-resume{
     flex-wrap: wrap;
 }
@@ -17,6 +24,13 @@
     margin: 10px;
  
 }
+.resume:hover{
+    border: 1px solid gold;
+    transition: 1s ease-out;
+}
+.resumeHide{
+    display: none;
+}
 
 @media  screen and (max-width:700px) {
 
@@ -30,6 +44,6 @@
     .top-resume{
         flex-direction: column;
     }
-    
+
     
 }

@@ -1,16 +1,38 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../../index.css";
 import "./index.css";
 import logo from "../../assets/Gif/logo.gif";
 import TypeAnimation from "react-type-animation";
-import "../Menu2/index.css";
 import { Link } from "react-router-dom";
 import SocialLink from "../Social-links";
 
 function Home() {
+  const [toggle, setToggle] = React.useState(false);
+
+ function darkMode() {
+   setToggle(!toggle)
+   if(toggle){
+     document.body.style.backgroundColor = "#003366";
+     document.body.style.color = "#FFFF00";
+   }else{
+    document.body.style.backgroundColor = "black";
+    document.body.style.color = "white";
+   }
+  }
+  useEffect(() => {
+    document.body.style.backgroundColor = "#003366";
+    document.body.style.color = "#FFFF00";
+  }, []);
+  
+
   return (
     <div>
+     
+     
       <div className="profile-container">
+      <div className="dark-mode">
+         <i className={!toggle? "fa fa-moon-o":"fa fa-sun"} onClick={darkMode}></i>
+        </div>
         <img className="card" src={logo} alt="Ahammed Saad" loading="lazy" />
 
         {/* <TypeAnimation
@@ -46,20 +68,21 @@ function Home() {
         <div className="nav-home">
           <Link to="/project">
             <li>
-              <i className="fa"></i>Project
+              <i className="fa">Project</i>
             </li>
           </Link>
           <Link to="/about">
             <li>
-              <i className="fa"></i>About Me
+              <i className="fa">About-Me</i>
             </li>
           </Link>
           <Link to="/resume">
             <li>
-              <i className="fa"></i>Resume
+              <i className="fa">Resume</i>
             </li>
           </Link>
         </div>
+      
         <SocialLink />
       </div>
     </div>
