@@ -6,7 +6,9 @@ from node_modules\react-responsive-carousel\lib\styles\carousel.css */
 .carousel-root {
     width: 45vw;
     height: 78vh;
-    margin-left: 425px;
+    margin: 1vh auto;
+    position: relative;
+    
 
 }
 
@@ -25,7 +27,7 @@ from node_modules\react-responsive-carousel\lib\styles\carousel.css */
 
 .carousel a {
     text-transform: uppercase;
-    color: #f1f1f1;
+    color: var(--text-main);
     text-decoration: none;
     letter-spacing: 0.15em;
     display: inline-block;
@@ -75,9 +77,8 @@ from node_modules\react-responsive-carousel\lib\styles\carousel.css */
     padding: 5px 8px;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-    color: #fff;
-    background-color: #1976d2;
-    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
+    color: var(--text-main);
+    background-color: var(--bg-main);
   }
   a{
     text-decoration: none;
@@ -88,6 +89,7 @@ from node_modules\react-responsive-carousel\lib\styles\carousel.css */
       width: 90vw;
       height: 78vh;
       margin: 0 auto;
+     
   
   }
   .detailsBtn{
