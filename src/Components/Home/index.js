@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useState } from "react";
 import "../../index.css";
 import "./index.css";
 import logo from "../../assets/Gif/logo.gif";
@@ -7,22 +7,43 @@ import { Link } from "react-router-dom";
 import SocialLink from "../Social-links";
 
 function Home() {
-  const [toggle, setToggle] = React.useState(false);
+  const [toggle, setToggle] = useState(false);
 
- function darkMode() {
+ function darkMode(bgMain, txtMain, txtSecond, bgCol, bgWhite, txtThird) {
+
    setToggle(!toggle)
-   if(toggle){
-     document.body.style.backgroundColor = "#003366";
-     document.body.style.color = "#FFFF00";
-   }else{
-    document.body.style.backgroundColor = "black";
-    document.body.style.color = "white";
-   }
+    if(!toggle){
+      bgMain = "#fff";
+      txtMain = "#000";
+      txtSecond = "#000";
+      bgCol = "#fff";
+      bgWhite = "#000";
+      txtThird = "#000";
+      document.documentElement.style.setProperty("--bg-lightBlue", bgMain);
+      document.documentElement.style.setProperty("--text-main", txtMain);
+      document.documentElement.style.setProperty("--text-second", txtSecond);
+      document.documentElement.style.setProperty("--bg-color", bgCol);
+      document.documentElement.style.setProperty("--bg-white", bgWhite);
+      document.documentElement.style.setProperty("--text-third", txtThird);
+    }else{
+      document.documentElement.style.setProperty("--bg-lightBlue", "#003366");
+      document.documentElement.style.setProperty("--text-main", "#fff");
+      document.documentElement.style.setProperty("--text-second", "#FFFF00");
+      document.documentElement.style.setProperty("--bg-color", "#111");
+      document.documentElement.style.setProperty("--bg-white", "#ffffff");
+      document.documentElement.style.setProperty("--text-third", "#990099");
+    }
+    /*
+      --bg-lightBlue:#003366;
+  --text-main : #fff;
+  --text-second: #FFFF00;
+  --bg-color: #111;
+  --bg-white:#ffffff;
+  --text-third:##990099;  
+     */
+
+
   }
-  useEffect(() => {
-    document.body.style.backgroundColor = "#003366";
-    document.body.style.color = "#FFFF00";
-  }, []);
   
 
   return (
@@ -31,7 +52,7 @@ function Home() {
      
       <div className="profile-container">
       <div className="dark-mode">
-         <i className={!toggle? "fa fa-moon-o":"fa fa-sun"} onClick={darkMode}></i>
+         <i className={!toggle? "fas fa-toggle-on":"fas fa-toggle-off"} onClick={darkMode}></i>
         </div>
         <img className="card" src={logo} alt="Ahammed Saad" loading="lazy" />
 

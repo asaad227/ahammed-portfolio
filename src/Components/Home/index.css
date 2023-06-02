@@ -12,10 +12,8 @@
   margin-left: 1rem;
   width: 95vw;
   height: auto;
-  border: 1px solid #b8bfc2;
-  box-shadow: 1px 0px 6px white;
-  /* background-color: #84c4d4;
-  color: #fff; */
+  box-sizing: border-box;
+  box-shadow: 2px 2px 10px 5px var(--bg-box2);
   border-top-right-radius: 2rem;
   border-bottom-left-radius: 2rem;
 }
@@ -40,14 +38,14 @@
 }
 
 .card {
-  padding: 1.5rem;
+padding: 1vw;
   text-align: left;
   background-image: var(--bg-lightBlue);
   text-decoration: none;
-  border: 1px solid #b8bfc2;
-  box-shadow: 1px 0px 6px white;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 10px 5px var(--bg-box2);
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 100px;
+  width: 10vw;
   margin: 0 auto;
 }
 
@@ -120,14 +118,19 @@ li {
   list-style: none;
   margin-left: 5px;
 }
-
-.fa {
+.nav-home .fa{
+  margin-left: 5px;
+  font-size: 16px;
+  color:var(--text-main);
+  transition: 1s ease-out;
+}
+.fas {
   margin-left: 5px;
   font-size: 16px;
   color: var(--text-main);
   transition: 1s ease-out;
 }
-.dark-mode .fa-moon-o, .dark-mode .fa-sun{
+.dark-mode .fa-toggle-off, .dark-mode .fa-toggle-on{
   box-sizing: border-box;
   border: 2px solid var(--text-main);
   border-radius: 50%;
@@ -160,15 +163,15 @@ li {
     width: 90vw;
     height: auto;
   }
-  .dark-mode .fa-moon-o, .dark-mode .fa-sun{
-    margin-right: 80vw;
+  .dark-mode .fa-toggle-on, .dark-mode .fa-toggle-off{
     margin-bottom: 20vh;
   }
   .nav-home {
     font-size: 14px;
   }
   .card {
-    max-width: 100px;
+    padding: 2vw;
+   width: 20vw;
   }
   .type {
     font-size: 0.875rem;
@@ -179,10 +182,12 @@ li {
   .headerTxt{
     font-size: 0.875rem;
   }
-  .fa{
-  
+  .fas{
+    margin-left: 38px;
     font-size: 12px;
- 
+  }
+  .nav-home .fa{
+    font-size: 12px;
   }
   
 }

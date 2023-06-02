@@ -1,11 +1,26 @@
 .menuBar{
-    display: -webkit-inline-flex;
-    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    width: 98vw;
     border: 1px solid #b8bfc2;
     box-shadow: 1px 0px 6px white;
     padding: 1rem; 
   }
-  
+  .logo{
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    color: black;
+    display: flex; /* Display block instead of inline */
+    margin-left:0.25rem;
+  }
+
+ .moodChange{
+    margin-left:0.25rem;
+ }
   .menuLink{
   
     margin-left: 1rem;
@@ -32,7 +47,7 @@
   
 .menuBar a {
   text-transform: uppercase;
-  color: #f1f1f1;
+  color: var(--text-main);
   text-decoration: none;
   letter-spacing: 0.15em;
   display: inline-block;
