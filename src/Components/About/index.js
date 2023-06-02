@@ -15,19 +15,20 @@ export default function About() {
 
       <div className="about">
         <img className="card" src={pic} alt="Ahammed Saad" />
-        <TypeAnimation cursor={false} sequence={["Ahammed Saad", 2000]} wrapper='h2' />
+        <TypeAnimation cursor={false} sequence={["Ahammed Saad", 2000]} wrapper='h3' />
         <p className="type-profile">
-          I am an accomplished and versatile developer with expertise in various programming languages and technologies. My skill set includes JavaScript, Java, Python, Node.js, React.js, TypeScript, SQL, PostgreSQL, MongoDB, and a wide range of development tools. I have a strong proficiency in deploying applications using platforms such as Heroku, Firebase, Express.js, and NPM. Additionally, I am well-versed in testing frameworks like Jest, Cypress, and Enzyme.
+        As a junior developer, I have a strong foundation in programming languages such as JavaScript, Java, and Python. I am also familiar with popular frameworks and technologies like Node.js, React.js, and TypeScript. I have experience with databases such as SQL, PostgreSQL, and MongoDB. Additionally, I am proficient in using development tools and platforms like Heroku, Firebase, Express.js, and NPM.
           <br />
           <br />
-          With a keen eye for design, I possess the ability to create visually appealing interfaces using CSS, HTML,bootstrap, storybook and tools like wireframe.cc, Figma and Canva. I prioritize user experience and strive to develop intuitive and engaging interfaces that enhance the overall usability of applications.
+          In terms of front-end development, I am skilled in creating visually appealing interfaces using CSS, HTML, and bootstrap. I have worked with design tools like wireframe.cc, Figma, and Canva to enhance the user experience of applications.
           <br />
           <br />
+        
+    
           In addition to my technical skills, I bring valuable experience in team building and coaching. I have a proven track record of fostering collaboration and effectively leading teams to deliver projects efficiently. My background as an accounting student has provided me with a comprehensive understanding of business and financial aspects, allowing me to approach projects with a well-rounded perspective.
           <br />
           <br />
-          I am highly motivated, proactive, and committed to continuous learning. I thrive in dynamic environments and readily adapt to new technologies and frameworks. With my diverse skill set, leadership abilities, and business acumen, I am confident in my ability to make a significant impact on projects and contribute to the success of any team.
-
+          While I may be a junior developer, I am highly motivated and committed to continuous learning. I thrive in dynamic environments and readily adapt to new technologies and frameworks. With my enthusiasm and willingness to grow, I believe I can make valuable contributions to any development team.
           <br />
           <br />
           Thank you for considering my qualifications. I look forward to the opportunity to contribute my expertise and skills to your organization.

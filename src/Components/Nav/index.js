@@ -9,7 +9,7 @@ export default function Nav() {
     if (!toggle) {
       bgMain = "#fff";
       txtMain = "#000";
-      txtSecond = "#000";
+      txtSecond = "#990099";
       bgCol = "#fff";
       bgWhite = "#000";
       txtThird = "#000";
