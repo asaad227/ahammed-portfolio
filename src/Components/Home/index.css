@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Island+Moments&family=Metal+Mania&family=Roboto:wght@300&display=swap");
 
-
 .profile-container {
   display: flex;
   flex-direction: column;
@@ -24,12 +23,12 @@
   margin-top: 1rem;
   margin-bottom: 20vh;
 }
-.headerTxt{
+.headerTxt {
   font-weight: 500;
-  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   color: var(--text-main);
   text-transform: uppercase;
-  font-size:1rem;
+  font-size: 1rem;
   line-height: 1.75;
   letter-spacing: 0.15em;
   transition: 1s ease-out;
@@ -38,9 +37,9 @@
 }
 
 .card {
-padding: 1vw;
+  padding: 1vw;
   text-align: left;
-  background-image: var(--bg-lightBlue);
+  background-image: var(--bg-main);
   text-decoration: none;
   box-sizing: border-box;
   box-shadow: 2px 2px 10px 5px var(--bg-box2);
@@ -53,23 +52,20 @@ padding: 1vw;
   border: 1px solid goldenrod;
 }
 
-
-
 .type {
   display: flex;
- margin: 0 auto;
+  margin: 0 auto;
 
- color: var(--text-main);
+  color: var(--text-main);
   transition: 1s ease-out;
-  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   font-weight: 800;
   font-size: 1rem;
   line-height: 1.75;
   letter-spacing: 0.02857em;
- 
 }
 
-.opening-txt{
+.opening-txt {
   font-family: "Delicious Handrawn";
   font-weight: 800;
   color: var(--text-main);
@@ -84,7 +80,6 @@ padding: 1vw;
   color: white;
   transition: 1s ease-out;
 } */
-
 
 .nav-home a {
   text-transform: uppercase;
@@ -118,10 +113,10 @@ li {
   list-style: none;
   margin-left: 5px;
 }
-.nav-home .fa{
+.nav-home .fa {
   margin-left: 5px;
   font-size: 16px;
-  color:var(--text-main);
+  color: var(--text-main);
   transition: 1s ease-out;
 }
 .fas {
@@ -130,7 +125,8 @@ li {
   color: var(--text-main);
   transition: 1s ease-out;
 }
-.dark-mode .fa-toggle-off, .dark-mode .fa-toggle-on{
+.dark-mode .fa-toggle-off,
+.dark-mode .fa-toggle-on {
   box-sizing: border-box;
   border: 2px solid var(--text-main);
   border-radius: 50%;
@@ -163,7 +159,8 @@ li {
     width: 90vw;
     height: auto;
   }
-  .dark-mode .fa-toggle-on, .dark-mode .fa-toggle-off{
+  .dark-mode .fa-toggle-on,
+  .dark-mode .fa-toggle-off {
     margin-bottom: 20vh;
   }
   .nav-home {
@@ -171,23 +168,22 @@ li {
   }
   .card {
     padding: 2vw;
-   width: 20vw;
+    width: 20vw;
   }
   .type {
     font-size: 0.875rem;
   }
-  .opening-txt{
+  .opening-txt {
     font-size: 0.875rem;
   }
-  .headerTxt{
+  .headerTxt {
     font-size: 0.875rem;
   }
-  .fas{
+  .fas {
     margin-left: 38px;
     font-size: 12px;
   }
-  .nav-home .fa{
+  .nav-home .fa {
     font-size: 12px;
   }
-  
 }
