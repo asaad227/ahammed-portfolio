@@ -8,13 +8,11 @@ from node_modules\react-responsive-carousel\lib\styles\carousel.css */
     height: 78vh;
     margin: 1vh auto;
     position: relative;
-    
-
 }
 .projectMain{
   margin: 20px auto;
 }
-.appTitle{
+.projectMain h1{
   font-size: 2rem;
   margin: 0;
   padding: 0;
@@ -22,7 +20,7 @@ from node_modules\react-responsive-carousel\lib\styles\carousel.css */
   color: var(--text-main);
   font-family: "Roboto","Helvetica","Arial",sans-serif;
 }
-.appandrepo{
+.projectMain a{
   font-size: small;
   margin: 5px 1rem;
   padding: 0;
@@ -95,17 +93,12 @@ from node_modules\react-responsive-carousel\lib\styles\carousel.css */
     color: var(--text-main);
     background-color: var(--bg-main);
   }
-  a{
-    text-decoration: none;
-    margin-left: 5px;
-  }
+ 
   @media screen and (max-width: 600px){
     .carousel-root {
       width: 90vw;
       height: 78vh;
       margin: 0 auto;
-     
-  
   }
   .detailsBtn{
     margin-top: 0;
@@ -145,8 +138,10 @@ from node_modules\react-responsive-carousel\lib\styles\carousel.css */
   .carousel .control-dots .dot:focus {
     outline: none;
   }
-
-.appTitle{
+  .carousel.carousel-slider .control-arrow{
+    margin-top: 40px;
+  }
+.projectMain h1{
   font-size: 1.5rem;
   margin: 0;
   padding: 0;
@@ -155,5 +150,10 @@ from node_modules\react-responsive-carousel\lib\styles\carousel.css */
   font-family: "Roboto","Helvetica","Arial",sans-serif;
 
 
+}
+.projectMain a{
+  font-size: x-small;
+  margin: 5px 1rem;
+  padding: 0;
 }
   }

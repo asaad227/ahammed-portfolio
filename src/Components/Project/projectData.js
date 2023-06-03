@@ -15,14 +15,14 @@ export default function ProjectData() {
             <Carousel className='sliderDiv'>
                 {data.map(e => {
                     return (<div className='projectMain' key={e.id}>
-                        <h1 className='appTitle'>{e.app}</h1>
-                        <a className='appandrepo' href={e.url}>App
+                        <h1 >{e.app}</h1>
+                        <a  href={e.url}>App
                         <i className="fa fa-link"></i>
                         </a> 
-                        <a className='appandrepo' href={e.github}>
+                        <a  href={e.github}>
                         <i className="fa fa-github"></i>Repo
                         </a>
-                        <img className='projectImg' src={e.project} alt={e.name} />
+                        <img  src={e.project} alt={e.name} />
                     </div>)
                 })}
             </Carousel>
