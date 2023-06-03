@@ -14,7 +14,7 @@ export default function ProjectData() {
           <Nav/>
             <Carousel className='sliderDiv'>
                 {data.map(e => {
-                    return (<div key={e.id}>
+                    return (<div className='projectMain' key={e.id}>
                         <h1 className='appTitle'>{e.app}</h1>
                         <a className='appandrepo' href={e.url}>App
                         <i className="fa fa-link"></i>

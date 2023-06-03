@@ -11,6 +11,9 @@ from node_modules\react-responsive-carousel\lib\styles\carousel.css */
     
 
 }
+.projectMain{
+  margin: 20px auto;
+}
 .appTitle{
   font-size: 2rem;
   margin: 0;
