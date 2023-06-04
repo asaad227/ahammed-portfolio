@@ -5,7 +5,7 @@ from node_modules\react-responsive-carousel\lib\styles\carousel.css */
 
 .carousel-root {
     width: 45vw;
-    height: 78vh;
+    height: auto;
     margin: 1vh auto;
     position: relative;
 }
@@ -97,7 +97,6 @@ from node_modules\react-responsive-carousel\lib\styles\carousel.css */
   @media screen and (max-width: 600px){
     .carousel-root {
       width: 90vw;
-      height: 78vh;
       margin: 0 auto;
   }
   .detailsBtn{
