@@ -1,14 +1,13 @@
-import React, { useState } from "react";
-import "../../index.css";
+import React from "react";
 import "./index.css";
 import logo from "../../assets/Gif/logo.gif";
 import TypeAnimation from "react-type-animation";
 import { Link } from "react-router-dom";
 import SocialLink from "../Social-links";
-import DarkMode from "../DarkMode";
+
 
 function Home() {
-  const [toggle, setToggle] = useState(false);
+
 
 
   return (
@@ -56,19 +55,19 @@ function Home() {
 
         <div className="nav-home">
           <Link to="/project">
-            <li>
-              <i className="fa">Project</i>
-            </li>
+          
+            Project
+           
           </Link>
           <Link to="/about">
-            <li>
-              <i className="fa">About-Me</i>
-            </li>
+           
+             About-Me
+           
           </Link>
           <Link to="/resume">
-            <li>
-              <i className="fa">Resume</i>
-            </li>
+           
+             Resume
+           
           </Link>
         </div>
       

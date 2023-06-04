@@ -14,7 +14,7 @@ export default function About() {
       <Nav />
 
       <div className="about">
-        <img className="card" src={pic} alt="Ahammed Saad" />
+        <img className="card1" src={pic} alt="Ahammed Saad" />
         <TypeAnimation cursor={false} sequence={["Ahammed Saad", 2000]} wrapper='h3' />
         <p className="type-profile">
         As a junior developer, I have a strong foundation in programming languages such as JavaScript, Java, and Python. I am also familiar with popular frameworks and technologies like Node.js, React.js, and TypeScript. I have experience with databases such as SQL, PostgreSQL, and MongoDB. Additionally, I am proficient in using development tools and platforms like Heroku, Firebase, Express.js, and NPM.

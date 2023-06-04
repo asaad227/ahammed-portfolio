@@ -19,7 +19,13 @@
 
 .nav-home {
   display: flex;
-  font-size: 18px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 800;
+  color: var(--text-main);
+  font-size: 1rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  transition: 1s ease-out;
   margin-top: 1rem;
   margin-bottom: 20vh;
 }
@@ -76,18 +82,26 @@
   margin: 20px auto;
 }
 
-/* .type:hover {
-  color: white;
-  transition: 1s ease-out;
-} */
 
 
 
-li {
-  list-style: none;
-  margin-left: 5px;
+
+.nav-home a {
+ text-decoration: none;
+ margin: 0 10px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+ font-weight: 800;
+ color: var(--text-main);
+ font-size: 1rem;
+ line-height: 1.75;
+ letter-spacing: 0.02857em;
+ text-transform: uppercase;
+ transition: 1s ease-out;
 }
 
+.nav-home a:hover {
+  color: goldenrod;
+}
 
 
 
@@ -97,9 +111,9 @@ li {
     height: auto;
   }
 
-  .nav-home {
-    font-size: 14px;
-  }
+ .nav-home a{
+    font-size: 0.875rem;
+ }
   .card {
 
     padding: 2vw;
