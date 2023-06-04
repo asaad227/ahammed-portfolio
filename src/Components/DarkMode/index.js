@@ -1,4 +1,5 @@
 import React from 'react'
+import "./index.css"
 
 export default function DarkMode({ toggle, setToggle }) {
 
@@ -43,7 +44,7 @@ export default function DarkMode({ toggle, setToggle }) {
     }
 
     return (
-        <div >
+        <div className='darkmood'>
             <i className={!toggle ? "fas fa-toggle-on" : "fas fa-toggle-off"} onClick={darkMode}></i>
         </div>
     )

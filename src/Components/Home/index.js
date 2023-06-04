@@ -19,9 +19,9 @@ function Home() {
       {/* <div className="dark-mode">
          <i className={!toggle? "fas fa-toggle-on":"fas fa-toggle-off"} onClick={darkMode}></i>
         </div> */}
-        <div className="dark-mode">
+        {/* <div className="dark-mode">
         <DarkMode toggle={toggle} setToggle={setToggle} />
-        </div>
+        </div> */}
         <img className="card" src={logo} alt="Ahammed Saad" loading="lazy" />
 
         {/* <TypeAnimation

@@ -45,7 +45,7 @@
   box-shadow: 2px 2px 10px 5px var(--bg-box2);
   transition: color 0.15s ease, border-color 0.15s ease;
   width: 10vw;
-  margin: 0 auto;
+  margin: 12vh auto;
 }
 
 .card:hover {
@@ -81,92 +81,27 @@
   transition: 1s ease-out;
 } */
 
-.nav-home a {
-  text-transform: uppercase;
-  color: #f1f1f1;
-  text-decoration: none;
-  letter-spacing: 0.15em;
-  display: inline-block;
-  position: relative;
-}
 
-.nav-home a:after {
-  background: none repeat scroll 0 0 transparent;
-  bottom: 0;
-  content: "";
-  display: block;
-  height: 2px;
-  left: 50%;
-  position: absolute;
-  background: gold;
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  width: 0;
-}
-.nav-home a:hover:after {
-  width: 100%;
-  left: 0;
-}
-.nav-home a:hover {
-  color: gold;
-}
+
 li {
   list-style: none;
   margin-left: 5px;
 }
-.nav-home .fa {
-  margin-left: 5px;
-  font-size: 16px;
-  color: var(--text-main);
-  transition: 1s ease-out;
-}
-.fas {
-  margin-left: 5px;
-  font-size: 16px;
-  color: var(--text-main);
-  transition: 1s ease-out;
-}
-.dark-mode .fa-toggle-off,
-.dark-mode .fa-toggle-on {
-  box-sizing: border-box;
-  border: 2px solid var(--text-main);
-  border-radius: 50%;
-  padding: 3px;
-  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
-  margin-right: 90vw;
-  margin-top: 2vh;
-  margin-bottom: 15vh;
-  color: var(--text-main);
-}
-.fa:hover {
-  color: gold;
-  transition: 1s ease-out;
-}
-.dark-mode-button {
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin: 1rem;
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  outline: none;
-  font-size: 1.5rem;
-  color: var(--text-main);
-  transition: 1s ease-out;
-}
+
+
+
+
 @media screen and (max-width: 600px) {
   .profile-container {
     width: 90vw;
     height: auto;
   }
-  .dark-mode .fa-toggle-on,
-  .dark-mode .fa-toggle-off {
-    margin-bottom: 20vh;
-  }
+
   .nav-home {
     font-size: 14px;
   }
   .card {
+
     padding: 2vw;
     width: 20vw;
   }
@@ -179,11 +114,5 @@ li {
   .headerTxt {
     font-size: 0.875rem;
   }
-  .fas {
-    margin-left: 38px;
-    font-size: 12px;
-  }
-  .nav-home .fa {
-    font-size: 12px;
-  }
+  
 }

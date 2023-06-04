@@ -1,0 +1,17 @@
+
+
+.darkmood .fas {
+    position: absolute;
+   margin-left: 93vw;
+   margin-top: 2.5px;
+    font-size: 1.5rem;
+    color: var(--main-btn-color);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .darkmood .fas {
+        margin-left: 83vw;
+    }
+}
+    

@@ -1,75 +1,76 @@
-.menuBar{
-    display: flex;
-    justify-content: space-between;
-    width: 98vw;
-    border: 1px solid #b8bfc2;
-    box-shadow: 1px 0px 6px white;
-    padding: 1rem; 
-  }
-  .logo{
-    font-weight: 500;
-    font-size: 1.5rem;
-    line-height: 1.75;
-    letter-spacing: 0.02857em;
-    text-transform: uppercase;
-    font-family: "Roboto","Helvetica","Arial",sans-serif;
-    color: black;
-    display: flex; /* Display block instead of inline */
-    margin-left:0.25rem;
-  }
+nav{
+  display: flex;
+  align-items: center;
+  background-color: var(--main-bg-color) !important;
+  width: 100vw;
+  height: 5vh;
+  flex-direction: row;
+  margin: 0 auto;
+  box-sizing: border-box;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 0 10px 5px var(--bg-box2);
 
- .moodChange{
-    margin-right:0.5rem;
- }
-  .menuLink{
-  
-    margin-left: 1rem;
-    font-weight: 500;
-    font-size: 0.875rem;
-    line-height: 1.75;
-    letter-spacing: 0.02857em;
-    text-transform: uppercase;
-    font-family: "Roboto","Helvetica","Arial",sans-serif;
-    color: black;
-    display: flex; /* Display block instead of inline */
-   
-    
-  }
-  
-  .menuBar a{
-    text-decoration: none;
-  }
-  
-  .menuBar li:hover{
-    color: #e9c46a;
-  }
+}
 
-  
-.menuBar a {
-  text-transform: uppercase;
-  color: var(--text-main);
+.fa-download{
+  color: var(--main-text-color);
+  cursor: pointer;
+}
+.material-symbols-outlined{
+  font-size: 3rem;
+  color: #ffcc00;
+}
+
+nav a:hover, .fa-download:hover{
+  color: #ffcc00;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+}
+
+
+
+nav ul li a{
   text-decoration: none;
-  letter-spacing: 0.15em;
-  display: inline-block;
-  position: relative;
+  color: var(--main-text-color);
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0 1.5rem;
+
 }
 
-.menuBar a:after {
-  background: none repeat scroll 0 0 transparent;
-  bottom: 0;
-  content: "";
-  display: block;
-  height: 2px;
-  left: 50%;
-  position: absolute;
-  background: gold;
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  width: 0;
+nav ul li a:hover{
+  color: #ffcc00;
 }
-.menuBar a:hover:after {
-  width: 100%;
-  left: 0;
+
+@media screen and (max-width: 600px) {
+  nav{
+      justify-content: center; 
+      padding-right: 10vw; 
+      width: 100vw;
+      height: auto;
+  }
+  nav ul{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  nav ul li a{
+      margin: 10px 0;
+  }
+  .material-symbols-outlined{
+      font-size: 2rem;
+  }
+  nav h1{
+      font-size: 1.5rem;
+  }
+  nav ul li a{
+      font-size: 1rem;
+  }
 }
-.menuBar a:hover {
-  color: gold;
-}
+  

@@ -1,37 +1,24 @@
-import React, {useState} from 'react'
+import React from 'react'
 import "./index.css"
-import DarkMode from '../DarkMode'
+import AhammedSaadResume from "../../assets/CV/Ahammed_saad_cv_main.pdf"
 import { Link } from 'react-router-dom'
 export default function Nav() {
-  const [toggle, setToggle] = useState(false);
 
  
 return (
-    <header className='menuBar'> 
-        <div className="logo">
-          <Link className='menuLink' to="/">
-          <i className="fa fa-home"></i>
-          {/* Home */}
-        </Link>
-          <Link  className='menuLink' to="/project">
-          {/* <i className="fas fa-project-diagram"></i> */}
-          Project
-          </Link>
-          <Link  className='menuLink' to="/about">
-          {/* <i className="fa fa-user"></i> */}
-          About Me
-          </Link>
-          <Link  className='menuLink' to="/resume">
-          {/* <i className="fa fa-file"></i> */}
-          Resume
-          </Link>
-        </div>
-          <div className="moodChange">
-          <DarkMode toggle={toggle} setToggle={setToggle} />
-          </div>
-        
-          
-  </header>
+  <nav>
+  <ul>
+      <li><Link to="/">
+      <i className="fa fa-home"></i>
+      Home</Link></li>
+      <li><Link to="/project">Project</Link></li>
+      <li><Link to="/about">About-Me</Link></li>
+      <li><Link to="/resume">Resume</Link></li>
+      <li><a href={AhammedSaadResume} download={AhammedSaadResume}><i className='fa fa-download'></i>CV</a></li>
+      
+  </ul>
+</nav>
+
 )
 }
 
