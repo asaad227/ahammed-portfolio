@@ -108,7 +108,7 @@
 @media screen and (max-width: 600px) {
   .profile-container {
     width: 90vw;
-    height: auto;
+    height: 90vh;
   }
 
  .nav-home a{

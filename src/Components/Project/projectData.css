@@ -15,7 +15,19 @@ border-top-right-radius: 2rem;
 border-bottom-left-radius: 2rem;
 box-shadow: 2px 2px 10px 5px var(--bg-box2);
 } */
-
+.projectHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1vh auto;
+  padding: 0;
+  width: 95vw;
+  height: auto;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 10px 5px var(--bg-box2);
+  border-top-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
 .carousel-root {
     width:65vw;
     height: auto;
@@ -106,10 +118,12 @@ box-shadow: 2px 2px 10px 5px var(--bg-box2);
   }
  
   @media screen and (max-width: 600px){
+    .projectHeader{
+      height: 65vh;
+    }
     .carousel-root {
       width: 80vw;
       height: auto; 
-
       margin: 1vh auto;
   }
   .detailsBtn{

@@ -1,7 +1,7 @@
 
 .resume-pdf{
     width: 80vw;
-    height: 85vh;
+    height: 80vh;
 }
 .resume-pdf:hover{
     border: 1px solid gold;
@@ -14,12 +14,11 @@
     justify-content: center;
     align-items: center;
     margin: 1vh auto;
-    width: 90vw;
+    width: 95vw;
     height: auto;
-    padding: 2.5vh;
-    /* background-image: var(--bg-image-main); */
     box-shadow: 2px 2px 10px 5px var(--bg-box2);
-    border-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
     border: 1px solid #b8bfc2;
 
 }
@@ -33,7 +32,6 @@
 .resume{
  align-items: center;
     width: 500px;
-    /* padding: 20px; */
     height: auto;
     border: 1px solid #b8bfc2;
     box-shadow: 1px 0px 6px white;

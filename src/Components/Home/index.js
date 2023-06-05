@@ -71,8 +71,9 @@ function Home() {
           </Link>
         </div>
       
-        <SocialLink />
+       
       </div>
+      <SocialLink />
     </div>
   );
 }

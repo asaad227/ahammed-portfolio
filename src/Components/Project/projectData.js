@@ -12,6 +12,7 @@ export default function ProjectData() {
     return (
         <div>
           <Nav/>
+          <div className='projectHeader'>
             <Carousel className='sliderDiv'>
                 {data.map(e => {
                     return (<div className='projectMain' key={e.id}>
@@ -26,6 +27,7 @@ export default function ProjectData() {
                     </div>)
                 })}
             </Carousel>
+            </div>
             <SocialLink />
         </div>
     );
