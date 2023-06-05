@@ -1,17 +1,28 @@
 /* most of the css come 
 from node_modules\react-responsive-carousel\lib\styles\carousel.css */
 
-
+/* .sliderDiv{
+margin: 0 auto;
+padding: 10vh 10vw;
+width: 95vw;
+text-align: start;
+background-image: var(--bg-image-main);
+background-blend-mode: overlay;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+border-top-right-radius: 2rem;
+border-bottom-left-radius: 2rem;
+box-shadow: 2px 2px 10px 5px var(--bg-box2);
+} */
 
 .carousel-root {
-    width: 45vw;
+    width:65vw;
     height: auto;
     margin: 1vh auto;
     position: relative;
 }
-.projectMain{
-  margin: 20px auto;
-}
+
 .projectMain h1{
   font-size: 2rem;
   margin: 0;
@@ -96,8 +107,10 @@ from node_modules\react-responsive-carousel\lib\styles\carousel.css */
  
   @media screen and (max-width: 600px){
     .carousel-root {
-      width: 90vw;
-      margin: 0 auto;
+      width: 80vw;
+      height: auto; 
+
+      margin: 1vh auto;
   }
   .detailsBtn{
     margin-top: 0;

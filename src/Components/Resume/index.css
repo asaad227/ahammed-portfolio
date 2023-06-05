@@ -7,6 +7,22 @@
     border: 1px solid gold;
     transition: 1s ease-out;
 }
+
+.resume-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1vh auto;
+    width: 90vw;
+    height: auto;
+    padding: 2.5vh;
+    background-image: var(--bg-image-main);
+    box-shadow: 2px 2px 10px 5px var(--bg-box2);
+    border-radius: 2rem;
+    border: 1px solid #b8bfc2;
+
+}
 .resume-pdfHide{
     display: none;
 }

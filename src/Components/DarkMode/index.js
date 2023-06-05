@@ -1,10 +1,14 @@
 import React from 'react'
 import "./index.css"
+/*
 
+--bg-image-main:url("../src/assets/Images/BlueFadeWater.png");
+--bg-image-secondary:url("../src/assets/Images/NightblueSkyBg.png");
+*/
 export default function DarkMode({ toggle, setToggle }) {
 
 
-    function darkMode(bgMain, txtMain, txtSecond, bgCol, bgBlack, txtThird, bgBox) {
+    function darkMode(bgMain, txtMain, txtSecond, bgCol, bgBlack, txtThird, bgBox,bgPic) {
         setToggle(!toggle);
         if (!toggle) {
             bgMain ="#003366";
@@ -14,6 +18,8 @@ export default function DarkMode({ toggle, setToggle }) {
             bgBlack = "#111";
             txtThird =  "#990099";
             bgBox = 'rgba(255, 255, 255, 0.2)';
+            bgPic = 'url("../src/assets/Images/NightblueSkyBg.png")';
+
             document.documentElement.style.setProperty("--bg-main", bgMain);
             document.documentElement.style.setProperty("--text-main", txtMain);
             document.documentElement.style.setProperty("--text-second", txtSecond);
@@ -21,6 +27,7 @@ export default function DarkMode({ toggle, setToggle }) {
             document.documentElement.style.setProperty("--bg-black", bgBlack);
             document.documentElement.style.setProperty("--text-third", txtThird);
             document.documentElement.style.setProperty("--bg-box2", bgBox);
+            document.documentElement.style.setProperty("--bg-image-main", bgPic);
         } else {
             document.documentElement.style.setProperty("--bg-main", "#ffffff");
             document.documentElement.style.setProperty("--text-main","#000");
@@ -30,7 +37,8 @@ export default function DarkMode({ toggle, setToggle }) {
             document.documentElement.style.setProperty("--text-third",'#FFFF00' );
             document.documentElement.style.setProperty(
                 "--bg-box2",'rgba(0, 0, 0, 0.2)' 
-            );
+            )
+            document.documentElement.style.setProperty("--bg-image-main",'url("../src/assets/Images/BlueFadeWater.png")');
         }
 
 

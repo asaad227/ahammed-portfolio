@@ -1,13 +1,6 @@
 :root{
-/*
- bgMain = "#fff";
-            txtMain = "#000";
-            txtSecond = "#990099";
-            bgCol = "#fff";
-            bgWhite = "#000";
-            txtThird = "#FFFF00";
-            bgBox = "rgba(0, 0, 0, 0.2)";
-*/
+--bg-image-main:url("../src/assets/Images/BlueFadeWater.png");
+--bg-image-secondary:url("../src/assets/Images/NightblueSkyBg.png");
   --bg-main:#ffffff;
   --text-main : #000;
   --text-second: #990099;
