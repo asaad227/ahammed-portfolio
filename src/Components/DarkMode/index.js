@@ -1,7 +1,5 @@
 import React from 'react';
 import "./index.css";
-import bgnight from "../../assets/Images/NightBlueSkyBg.png";
-import bgday from "../../assets/Images/BlueFadeWater.png";
 
 export default function DarkMode({ toggle, setToggle }) {
 
@@ -16,7 +14,7 @@ export default function DarkMode({ toggle, setToggle }) {
             bgBlack = "#111";
             txtThird =  "#990099";
             bgBox = 'rgba(255, 255, 255, 0.2)';
-            bgPic = bgnight;
+            bgPic = 'https://github.com/asaad227/ahammed-portfolio/blob/main/src/assets/Images/NightblueSkyBg.png?raw=true';
 
             document.documentElement.style.setProperty("--bg-main", bgMain);
             document.documentElement.style.setProperty("--text-main", txtMain);
@@ -27,6 +25,7 @@ export default function DarkMode({ toggle, setToggle }) {
             document.documentElement.style.setProperty("--bg-box2", bgBox);
             document.documentElement.style.setProperty("--bg-image-main", `url(${bgPic})`);
         } else {
+            const bgday = "https://github.com/asaad227/ahammed-portfolio/blob/main/src/assets/Images/BlueFadeWater.png?raw=true";
             document.documentElement.style.setProperty("--bg-main", "#ffffff");
             document.documentElement.style.setProperty("--text-main","#000");
             document.documentElement.style.setProperty("--text-second","#990099" );
