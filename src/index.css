@@ -1,6 +1,6 @@
 :root{
---bg-image-main:url("../src/assets/Images/BlueFadeWater.png");
---bg-image-secondary:url("../src/assets/Images/NightBlueSkyBg.png");
+--bg-image-secondary:url("https://github.com/asaad227/ahammed-portfolio/blob/main/src/assets/Images/NightblueSkyBg.png?raw=true");
+--bg-image-main:url("https://github.com/asaad227/ahammed-portfolio/blob/main/src/assets/Images/BlueFadeWater.png?raw=true");
   --bg-main:#ffffff;
   --text-main : #000;
   --text-second: #990099;
