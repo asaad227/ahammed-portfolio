@@ -20,7 +20,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: var( --text-second);
-  background: var(--bg-main);
+  /* background: var(--bg-main); */
   background-image: var(--bg-image-main);
   background-repeat: no-repeat;
   background-position: center;

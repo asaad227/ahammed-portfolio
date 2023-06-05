@@ -4,10 +4,10 @@ import "./index.css";
 export default function DarkMode({ toggle, setToggle }) {
 
 
-    function darkMode(bgMain, txtMain, txtSecond, bgCol, bgBlack, txtThird, bgBox,bgPic) {
+    function darkMode(txtMain, txtSecond, bgCol, bgBlack, txtThird, bgBox,bgPic) {
         setToggle(!toggle);
         if (!toggle) {
-            bgMain ="#003366";
+            // bgMain ="#003366";
             txtMain =  "#fff";
             txtSecond ="#FFFF00" ;
             bgCol = "#fff";
@@ -16,7 +16,7 @@ export default function DarkMode({ toggle, setToggle }) {
             bgBox = 'rgba(255, 255, 255, 0.2)';
             bgPic = 'https://github.com/asaad227/ahammed-portfolio/blob/main/src/assets/Images/NightblueSkyBg.png?raw=true';
 
-            document.documentElement.style.setProperty("--bg-main", bgMain);
+            // document.documentElement.style.setProperty("--bg-main", bgMain);
             document.documentElement.style.setProperty("--text-main", txtMain);
             document.documentElement.style.setProperty("--text-second", txtSecond);
             document.documentElement.style.setProperty("--bg-color", bgCol);
@@ -26,7 +26,7 @@ export default function DarkMode({ toggle, setToggle }) {
             document.documentElement.style.setProperty("--bg-image-main", `url(${bgPic})`);
         } else {
             const bgday = "https://github.com/asaad227/ahammed-portfolio/blob/main/src/assets/Images/BlueFadeWater.png?raw=true";
-            document.documentElement.style.setProperty("--bg-main", "#ffffff");
+            // document.documentElement.style.setProperty("--bg-main", "#ffffff");
             document.documentElement.style.setProperty("--text-main","#000");
             document.documentElement.style.setProperty("--text-second","#990099" );
             document.documentElement.style.setProperty("--bg-color","#ffffff" );

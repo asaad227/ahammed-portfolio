@@ -1,7 +1,7 @@
 
 .resume-pdf{
     width: 80vw;
-    height: 80vh;
+    height: 85vh;
 }
 .resume-pdf:hover{
     border: 1px solid gold;
@@ -17,7 +17,7 @@
     width: 90vw;
     height: auto;
     padding: 2.5vh;
-    background-image: var(--bg-image-main);
+    /* background-image: var(--bg-image-main); */
     box-shadow: 2px 2px 10px 5px var(--bg-box2);
     border-radius: 2rem;
     border: 1px solid #b8bfc2;

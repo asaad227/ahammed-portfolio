@@ -1,7 +1,7 @@
 nav{
   display: flex;
   align-items: center;
-  background-color: var(--main-bg-color) !important;
+  /* background-color: var(--main-bg-color) !important; */
   width: 100vw;
   height: 5vh;
   flex-direction: row;
