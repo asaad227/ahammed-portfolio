@@ -37,7 +37,7 @@ nav ul{
 
 nav ul li a{
   text-decoration: none;
-  color: var(--main-text-color);
+  color: var(--text-main);
   font-size: 1rem;
   font-weight: 500;
   margin: 0 1.5rem;
