@@ -1,6 +1,7 @@
 import React from "react";
 import "./index.css";
-import logo from "../../assets/Gif/logo.gif";
+
+import logo from "../Home/ahammed-logo-main.png";
 import TypeAnimation from "react-type-animation";
 import { Link } from "react-router-dom";
 import SocialLink from "../Social-links";
@@ -21,7 +22,7 @@ function Home() {
         {/* <div className="dark-mode">
         <DarkMode toggle={toggle} setToggle={setToggle} />
         </div> */}
-        <img className="card" src={logo} alt="Ahammed Saad" loading="lazy" />
+        <img className="card" style={{width:300}} src={logo} alt="Ahammed Saad" loading="lazy" />
 
         {/* <TypeAnimation
           className="opening-txt"

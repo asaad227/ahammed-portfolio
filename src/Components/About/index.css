@@ -11,8 +11,9 @@
 }
 
 .type-profile {
-  font-weight: 500;
+  font-weight: 800;
   font-size: 1rem;
+  text-align: justify;
   line-height: 1.75;
   letter-spacing: 0.02857em;
   /* text-transform: uppercase; */
